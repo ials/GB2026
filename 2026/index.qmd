@@ -4,19 +4,10 @@ subtitle: "Academic Year: 2026"
 format: html
 ---
 
-::: {.callout-important collapse=false}
-## 📢 Homework
-
-(05/06/2026)
-
-- Write and publish [this notebook](https://rpubs.com/ials2un/sentinel2_ts)
-
-:::
-
 ::: {.callout-important collapse=true}
 ## 📢 Syllabus
 
-(02/02/2026)
+(27/08/2026)
 
 - [🗓️ Know the syllabus here!](/2026/syllabus.qmd)
 
