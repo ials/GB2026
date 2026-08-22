@@ -74,12 +74,12 @@ Semana 16 - Agricultura digital
 
 ::: {.callout-important collapse=false}
 
--	Presentación de dos exámenes escritos sobre aspectos teóricos (50%)
-    - Examen 1 - 20 de Mayo
+-	Presentación de dos exámenes escritos (50%)
+    - Examen 1 - 8 de Octubre
     - Examen 2 - 15 de Julio
 -	Entrega de dos informes técnicos  (50%)
-    - Informe 1 - 27 de Mayo
-    - Informe 2 - 22 de Julio
+    - Informe 1 - 26 de Noviembre
+    - Informe 2 - 3 de Diciembre
 
 :::
 
