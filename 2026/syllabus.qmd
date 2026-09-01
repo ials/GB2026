@@ -32,7 +32,16 @@ format: html
 
 ### SOFTWARE:
 -	QGIS
+- GeoLibre
 - R & RStudio
+
+### USO DE INTELIGENCIA ARTIFICIAL
+
+Los estudiantes pueden usar herramientas de  Inteligencia Artifical  como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.
+
+### ASISTENCIA OBLIGATORIA
+
+Los estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.
 
 :::
 
