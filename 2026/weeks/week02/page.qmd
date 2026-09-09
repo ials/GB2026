@@ -21,7 +21,19 @@ You can find the slides [here](slides.qmd)
 
 ## **Practical exercises**
 
-Follow [these instructions](https://drive.google.com/file/d/1Rg52rbJTiantbiTvrh2apyuS6UPpaj4R/view?usp=sharing) to extract features and change their symbology. 
+1. Follow [these instructions](https://drive.google.com/file/d/1Rg52rbJTiantbiTvrh2apyuS6UPpaj4R/view?usp=sharing) to extract *municipios* and *elevation* for your department and change their symbology. 
+
+2. Follow these steps to add *cities* to your department:
+
+  - Download  a zip file with [world cities](https://simplemaps.com/data/world-cities)
+
+  - Add the unzipped csv file as ["Delimited Text Layer"](https://guides.library.duke.edu/QGIS/ImportData)
+
+  - Select the cities corresponding to your study area
+  
+  - Export the selected cities as a geopackage
+
+  - Change Symbology for the cities in your department
 
 ## 📚 Recommended Reading 
 
