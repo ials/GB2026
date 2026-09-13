@@ -27,17 +27,7 @@ You can find the slides [here](https://docs.google.com/presentation/d/1teYd09bo9
 
 ## ‍🏫 QGIS Exercise
 
-- Download  a csv file with [world cities](https://simplemaps.com/data/world-cities)
-
-- Add the above file as "Delimited Text Layer"
-
-- Extract the cities corresponding to your study area
-
-- Change Symbology for the new layer
-
-## 📚 Recommended Reading 
-
-Read [this document](https://revistas.uptc.edu.co/index.php/perspectiva/article/view/1718) and take notes
+- Reproject vector and raster data in your *Proyecto 1* and *Proyecto 2* from EPSG:4326 to EPSG:9377
 
 ## ✍️ Coursework
 
