@@ -9,7 +9,7 @@ format: html
 
 (17/09/2026)
 
-Handwrite the following topics for your study area: 
+Handwrite the following topics for your *Departamento*: 
 
 1. Biophysical environment (i.e., relief, hydrography, and climate); 
 
