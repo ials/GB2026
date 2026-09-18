@@ -4,6 +4,22 @@ subtitle: "Academic Year: 2026"
 format: html
 ---
 
+::: {.callout-important collapse=false}
+## 📢 Writing Assignment
+
+(17/09/2026)
+
+Handwrite the following topics for your study area: 
+
+1. Biophysical environment (i.e., relief, hydrography, and climate); 
+
+2. Social and economic aspects.
+
+Please bring your document to the classroom next week (Wednesday 23th September).
+
+:::
+
+
 ::: {.callout-important collapse=true}
 ## 📢 Syllabus
 
