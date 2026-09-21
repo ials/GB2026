@@ -15,13 +15,11 @@ You can find the slides [here](https://drive.google.com/file/d/1lSJ7OYnLE32xoRL_
 
 Students make two maps for Department X:
 
-#### 1. A political map displaying municipalities and urban centers 
-#### 2. A physical map displaying elevation, roads, hidrography, and urban centers
+#### 1. A political map displaying municipalities, roads and urban centers 
+#### 2. A physical map displaying elevation, hidrography and urban centers
 
 Guide:
 [How to make a map of municipalities in QGIS](https://drive.google.com/file/d/18UMx5zLUpfd_UetZwmBlX97J8yPMeJwk/view)
-
-**Make sure you bring the two maps, printed in color, to the classroom on 3rd March**
 
 🎥 
 
