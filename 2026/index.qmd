@@ -5,7 +5,7 @@ format: html
 ---
 
 ::: {.callout-important collapse=false}
-## 📢 Writing Assignment
+## 📢 Cartography Assignment
 
 (24/09/2026)
 
@@ -45,8 +45,6 @@ Please bring your document to the classroom next week (Wednesday 23th September)
 
 ## Course Convenor
 
-
-![](../figures/people/ials.png){fig-align="left" fig-alt="Photo of IVAN LIZARAZO" style="object-fit: cover;width:6em;height:6em;border-radius: 50%;"}  
 **IVAN LIZARAZO** <br/>
 _ASSOCIATE PROFESSOR_ <br/>
 [UNAL](#)</a><br/>
