@@ -1,0 +1,193 @@
+---
+subtitle: " 2015896-- GEOMATICA BASICA"
+title: "<font style='font-size:1em;'>🗓️ Week 4<br/>Non spatial joins</font>"
+author: Ivan Lizarazo
+institute: 'Universidad Nacional de Colombia'
+date: 30 September 2026
+date-meta: 30  September 2026
+date-format: "DD MMM YYYY"
+toc: true
+toc-depth: 1
+toc-title: "What we will cover today:"
+center-title-slide: false
+from: markdown+emoji
+format:
+  revealjs: 
+    fig-responsive: true
+    theme: simple
+    slide-number: true
+    mouse-wheel: false
+    preview-links: auto
+    logo: /figures/icons/earth.jpeg
+    css: /css/styles_slides.css
+    footer: '2015896 -- GEOMATICA BASICA'
+---
+
+# Non spatial joins
+
+## Goal
+
+To join a population table to a municipalities geopackage
+
+<figure>
+    <img src="figures/Goal.png" width="60%" height="60%" >
+</figure>
+
+## DANE population table
+
+Download *Proyecciones de población DANE*
+
+<figure>
+    <img src="figures/DANE_poblacion.png" width="85%" height="85%" >
+</figure>
+
+
+## Original table
+
+*DCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx*
+
+ <figure>
+    <img src="figures/raw_table.png"  width="70%" height="70%" >
+</figure>
+
+## Edited table
+
+DANE table after going from *long* to *wide* format:
+
+<figure>
+    <img src="figures/edited_table.png"  width="80%" height="80%" >
+</figure>
+
+# Joining two tables in QGIS
+
+To join two tables, a common attribute is needed. While *their names* don't matter, their *data types* do!
+
+## Edited Municipalities table
+
+Cordoba municipalities table *after deleting several fields*
+
+<figure>
+    <img src="figures/cordoba_table.png"  width="70%" height="70%" >
+</figure>
+
+## Joins in QGIS [1]
+
+Go to *Municipalities* Layer Properties:
+
+<figure>
+    <img src="figures/layer_properties.png"  width="60%" height="60%" >
+</figure>
+
+## Joins in QGIS [2]
+
+Execute this procedure: 
+
+<p align="center">
+<img src="figures/join_process.png" width="60%" height="60%" />
+</p>
+
+## Result
+
+Open the municipalities attribute table:
+
+<p align="center">
+<img src="figures/joined_table.png" width="80%" height="80%" />
+</p>
+
+
+## Goal accomplished! 
+
+Visualization of 2020 population per municipality (and OSM background):
+
+<figure>
+    <img src="figures/Goal2.png"  width="60%" height="60%" >
+</figure>
+
+
+# Poverty Mapping
+
+## Monetary poverty
+
+Poverty is about not having enough money to meet basic needs including food, clothing and shelter.  However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation).
+
+## Multidimensional poverty
+
+Poverty is *hunger*. Poverty is *lack of shelter*. Poverty is *being sick and not being able to see a doctor*. Poverty is *not having access to school and not knowing how to read*. Poverty is *not having a job*, is *fear for the future*, *living one day at a time* (WB).
+
+## Poverty Atlas - US$2.15
+
+<figure>
+    <img src="figures/GSPA-1.png" width="75%" height="75%" >
+</figure>
+
+## Poverty Atlas - US$3.65
+
+<figure>
+    <img src="figures/GSPA-2.png" width="75%" height="75%" >
+</figure>
+
+## Poverty Atlas - US$6.85
+
+<figure>
+    <img src="figures/GSPA-3.png" width="75%" height="75%" >
+</figure>
+
+# IPM practical exercise 
+
+## Goal
+
+To obtain  a multidimensional poverty's shapefile and produce a meaningful & appealing map for our department
+
+<figure>
+    <img src="figures/MPM_colombia.png" width="30%" height="30%" >
+</figure>
+
+## Indice de Pobreza Multidimensional (IPM)
+
+Download shapefile of 2018 IPM from  [DANE](https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74b6c9effd2fb8a9500dc)
+
+<figure>
+    <img src="figures/dane.maps.png" width="70%" height="70%" >
+</figure>
+
+
+##  Download compressed file
+
+<figure>
+    <img src="figures/MPM-shp.png" width="85%" height="85%" >
+</figure>
+
+## Extract and check data dictionary
+
+<figure>
+    <img src="figures/unzip.png" width="85%" height="85%" >
+</figure>
+
+## Reading & Visualizating the shapefile  
+
+<figure>
+    <img src="figures/simbologia.png" width="40%" height="40%" >
+</figure>
+
+
+## Mapping multidimensional poverty
+
+Create an IPM visualization similar to this one:
+
+<p align="center">
+<img src="figures/symbology1.png" width="70%" height="70%" />
+</p>
+
+## Mapping cities' population
+
+Create a population visualization similar to this one:
+
+<p align="center">
+<img src="figures/symbology2A.png" width="60%" height="60%" />
+</p>
+
+
+## Make your socioeconomic map(s)
+
+Create a PDF with such your socioeconomic map a bring it to the classroom on 24th September.
+

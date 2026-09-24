@@ -1,51 +1,40 @@
 ---
-title: "🗓️ Week 05 - Getting to know **R**"
+title: "🗓️ Week 5 - Table Joins"
 ---
 
-In this week, we will start learning **R** and **RStudio**
+In this week, we will cover the following topics:
 
-## Why Learn R?
-<figure>
-  <img align="center" width="600" height="500" src="figures/why_learn_R.png">
-</figure>
-
+**Theoretical topics**:
 
 ## 👨‍🏫 Lecture Slides 
 
-You can find the slides [here](https://drive.google.com/file/d/1THssVqZ7iD0k7nJzCLijqMPvCpV-4Q42/view?usp=sharing)
+You can find the slides [here](slides.qmd)
 
 
 ## **Practical exercises**:
-::: {.callout-note collapse="true"}
-[Ejercicios Sesión 06.09](https://www.uv.es/conesa/CursoR/material/problemas-sesion1.pdf)
-:::
-::: {.callout-note collapse="true"}
-[Ejercicios Sesión 07.09](https://www.uv.es/conesa/CursoR/material/problemas-sesion2.pdf)
-:::
 
-## Homework
-### ** Print the two color maps of your department and bring them to the classroom **
+-  Download the shapefile of [Indice de Probreza Multidimensional (IPM)](https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74) by DANE(2020)
+
+-  Preprocess the shapefile to cover only your department
+
+-  Add municipalities, population, roads, cities, and IPM layers to a new QGIS project
+
+-  Define symbology for each layer (add labels as needed)
+
+-  Make a map of IPM and colour print it 
+
+**Make sure you upload the IPM map to the drive on 17th September**
 
 🎥 
 
+
 ## 📚 Recommended Reading 
 
-Study [R for Non-Programmers](https://bookdown.org/daniel_dauber_io/r4np_book/) and do the exercises
+Read [Pobreza Multidimensional en Colombia](https://www.dane.gov.co/files/operaciones/PM/bol-PMultidimensional-2025.pdf) and take notes
 
-## ✍️ Coursework
 
-🚧 In your  notebook,  answer the following questions 🚧
 
-### Ejercicios en R
-::: {.callout-important collapse=true}
-1. Escriba una función que calcule la distancia entre dos puntos cuyas coordenadas *x*, *y* son conocidas
-2. Escriba una función que calcule la longitud de un arco terrestre si se indica su ángulo  y la latitud correspondiente
-:::
 
-### Ejercicios en GeoJSON Studio
-::: {.callout-important collapse=true}
-Vaya a [GeoJSON Studio](https://geojsonstudio.com/), haga zoom en el campus UNAL y dibuje objetos de interés. Exporte los datos en formato GeoJSON y agreguelos a un nuevo proyecto en QGIS. 
-:::
 
 
 

@@ -7,6 +7,16 @@ format: html
 ::: {.callout-important collapse=false}
 ## 📢 Writing Assignment
 
+(24/09/2026)
+
+Bring color-printed the *topographic map* of your *Departamento* to the classroom on 30th September.
+
+:::
+
+
+::: {.callout-important collapse=true}
+## 📢 Writing Assignment
+
 (17/09/2026)
 
 Handwrite the following topics for your *Departamento*: 
