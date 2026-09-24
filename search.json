@@ -1,140 +1,521 @@
 [
   {
-    "objectID": "2026/weeks/week04/page.html",
-    "href": "2026/weeks/week04/page.html",
-    "title": "🗓️ Week 04 - Fundamentals of Cartography",
+    "objectID": "2026/weeks/week05/slides.html#goal",
+    "href": "2026/weeks/week05/slides.html#goal",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo join a population table to a municipalities geopackage"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#dane-population-table",
+    "href": "2026/weeks/week05/slides.html#dane-population-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "DANE population table",
+    "text": "DANE population table\nDownload Proyecciones de población DANE"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#original-table",
+    "href": "2026/weeks/week05/slides.html#original-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Original table",
+    "text": "Original table\nDCD-area-proypoblacion-Mun-2020-2035-ActPostCOVID-19.xlsx"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#edited-table",
+    "href": "2026/weeks/week05/slides.html#edited-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited table",
+    "text": "Edited table\nDANE table after going from long to wide format:"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#edited-municipalities-table",
+    "href": "2026/weeks/week05/slides.html#edited-municipalities-table",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Edited Municipalities table",
+    "text": "Edited Municipalities table\nCordoba municipalities table after deleting several fields"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#joins-in-qgis-1",
+    "href": "2026/weeks/week05/slides.html#joins-in-qgis-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [1]",
+    "text": "Joins in QGIS [1]\nGo to Municipalities Layer Properties:"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#joins-in-qgis-2",
+    "href": "2026/weeks/week05/slides.html#joins-in-qgis-2",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Joins in QGIS [2]",
+    "text": "Joins in QGIS [2]\nExecute this procedure:"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#result",
+    "href": "2026/weeks/week05/slides.html#result",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Result",
+    "text": "Result\nOpen the municipalities attribute table:"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#goal-accomplished",
+    "href": "2026/weeks/week05/slides.html#goal-accomplished",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal accomplished!",
+    "text": "Goal accomplished!\nVisualization of 2020 population per municipality (and OSM background):"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#monetary-poverty",
+    "href": "2026/weeks/week05/slides.html#monetary-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Monetary poverty",
+    "text": "Monetary poverty\nPoverty is about not having enough money to meet basic needs including food, clothing and shelter. However, poverty is more, much more than just not having enough money (Economic and social inclusion Corporation)."
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#multidimensional-poverty",
+    "href": "2026/weeks/week05/slides.html#multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Multidimensional poverty",
+    "text": "Multidimensional poverty\nPoverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time (WB)."
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#poverty-atlas---us2.15",
+    "href": "2026/weeks/week05/slides.html#poverty-atlas---us2.15",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$2.15",
+    "text": "Poverty Atlas - US$2.15"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#poverty-atlas---us3.65",
+    "href": "2026/weeks/week05/slides.html#poverty-atlas---us3.65",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$3.65",
+    "text": "Poverty Atlas - US$3.65"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#poverty-atlas---us6.85",
+    "href": "2026/weeks/week05/slides.html#poverty-atlas---us6.85",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Poverty Atlas - US$6.85",
+    "text": "Poverty Atlas - US$6.85"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#goal-1",
+    "href": "2026/weeks/week05/slides.html#goal-1",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Goal",
+    "text": "Goal\nTo obtain a multidimensional poverty’s shapefile and produce a meaningful & appealing map for our department"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "href": "2026/weeks/week05/slides.html#indice-de-pobreza-multidimensional-ipm",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Indice de Pobreza Multidimensional (IPM)",
+    "text": "Indice de Pobreza Multidimensional (IPM)\nDownload shapefile of 2018 IPM from DANE"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#download-compressed-file",
+    "href": "2026/weeks/week05/slides.html#download-compressed-file",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Download compressed file",
+    "text": "Download compressed file"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#extract-and-check-data-dictionary",
+    "href": "2026/weeks/week05/slides.html#extract-and-check-data-dictionary",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Extract and check data dictionary",
+    "text": "Extract and check data dictionary"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#reading-visualizating-the-shapefile",
+    "href": "2026/weeks/week05/slides.html#reading-visualizating-the-shapefile",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Reading & Visualizating the shapefile",
+    "text": "Reading & Visualizating the shapefile"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#mapping-multidimensional-poverty",
+    "href": "2026/weeks/week05/slides.html#mapping-multidimensional-poverty",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping multidimensional poverty",
+    "text": "Mapping multidimensional poverty\nCreate an IPM visualization similar to this one:"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#mapping-cities-population",
+    "href": "2026/weeks/week05/slides.html#mapping-cities-population",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Mapping cities’ population",
+    "text": "Mapping cities’ population\nCreate a population visualization similar to this one:"
+  },
+  {
+    "objectID": "2026/weeks/week05/slides.html#make-your-socioeconomic-maps",
+    "href": "2026/weeks/week05/slides.html#make-your-socioeconomic-maps",
+    "title": "🗓️ Week 4Non spatial joins",
+    "section": "Make your socioeconomic map(s)",
+    "text": "Make your socioeconomic map(s)\nCreate a PDF with such your socioeconomic map a bring it to the classroom on 24th September."
+  },
+  {
+    "objectID": "2026/weeks/week05/page.html",
+    "href": "2026/weeks/week05/page.html",
+    "title": "🗓️ Week 5 - Table Joins",
     "section": "",
     "text": "In this week, we will cover the following topics:\nTheoretical topics:",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 04"
+      "Week 05"
     ]
   },
   {
-    "objectID": "2026/weeks/week04/page.html#lecture-slides",
-    "href": "2026/weeks/week04/page.html#lecture-slides",
-    "title": "🗓️ Week 04 - Fundamentals of Cartography",
+    "objectID": "2026/weeks/week05/page.html#lecture-slides",
+    "href": "2026/weeks/week05/page.html#lecture-slides",
+    "title": "🗓️ Week 5 - Table Joins",
     "section": "👨‍🏫 Lecture Slides",
     "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 04"
+      "Week 05"
     ]
   },
   {
-    "objectID": "2026/weeks/week04/page.html#practical-exercises",
-    "href": "2026/weeks/week04/page.html#practical-exercises",
-    "title": "🗓️ Week 04 - Fundamentals of Cartography",
+    "objectID": "2026/weeks/week05/page.html#practical-exercises",
+    "href": "2026/weeks/week05/page.html#practical-exercises",
+    "title": "🗓️ Week 5 - Table Joins",
     "section": "Practical exercises:",
-    "text": "Practical exercises:\nStudents make two maps for Department X:\n\n1. A political map displaying municipalities, roads and urban centers\n\n\n2. A physical map displaying elevation, hidrography and urban centers\n\n\nGuide:\nHow to make a map of municipalities in QGIS\n🎥",
+    "text": "Practical exercises:\n\nDownload the shapefile of Indice de Probreza Multidimensional (IPM) by DANE(2020)\nPreprocess the shapefile to cover only your department\nAdd municipalities, population, roads, cities, and IPM layers to a new QGIS project\nDefine symbology for each layer (add labels as needed)\nMake a map of IPM and colour print it\n\nMake sure you upload the IPM map to the drive on 17th September\n🎥",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 04"
+      "Week 05"
     ]
   },
   {
-    "objectID": "2026/weeks/week04/page.html#recommended-reading",
-    "href": "2026/weeks/week04/page.html#recommended-reading",
-    "title": "🗓️ Week 04 - Fundamentals of Cartography",
+    "objectID": "2026/weeks/week05/page.html#recommended-reading",
+    "href": "2026/weeks/week05/page.html#recommended-reading",
+    "title": "🗓️ Week 5 - Table Joins",
     "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\n\nRead Cartography: an Introduction and take notes\nRead What is a Choropleth Map",
+    "text": "📚 Recommended Reading\nRead Pobreza Multidimensional en Colombia and take notes",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 04"
+      "Week 05"
     ]
   },
   {
-    "objectID": "2026/weeks/week04/page.html#coursework",
-    "href": "2026/weeks/week04/page.html#coursework",
-    "title": "🗓️ Week 04 - Fundamentals of Cartography",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nCartography\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic area covered by one IGAC map sheet at 1:100000 scale?\nAt 1:25000 scale map, how many cm2 represent 100 ha?\nAt 1:5000 scale map, 10 cm2 equals how many hectares?\nWhat is the appropriate method of grouping numeric data in a choropleth map? Explain",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 04"
-    ]
-  },
-  {
-    "objectID": "2026/weeks/week02/slides_dem.html#definitions",
-    "href": "2026/weeks/week02/slides_dem.html#definitions",
-    "title": "🗓️ Week 9Digital elevation models",
-    "section": "Definitions",
-    "text": "Definitions\nWhat is a DEM?\nA digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the bare earth is represented.\nA DEM shows: - Topographic information (height asl) - Slopes - River beds - Hills, valleys, furrows and ridges\n\n\n\nWhat is a DTM?\nA digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the bare earth DEM might not represent, including things like:\n\nBreaklines are changes in the terrain on a surface\nManmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers.\n\n\n\n\nWhat is a DSM?\nA digital surface model (DSM) is a type of terrain that includes all features above the bare earth - both natural and man-made. It will include ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand."
-  },
-  {
-    "objectID": "2026/weeks/week02/slides_dem.html#uses-of-topography-data",
-    "href": "2026/weeks/week02/slides_dem.html#uses-of-topography-data",
-    "title": "🗓️ Week 9Digital elevation models",
-    "section": "Uses of topography data",
-    "text": "Uses of topography data\nUses of DEMs & DTMs\nDEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.\nBoth are especially useful for things like: - Hydrology - Terrain form - Slope stability - Simulations\nUses of DSM\nDSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.\nDSMs are useful for things like: - Radio frequency planning - Private networks - Emergency planning - Line of sight planning - Smart city mapping"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides_dem.html#data-acquisition",
-    "href": "2026/weeks/week02/slides_dem.html#data-acquisition",
-    "title": "🗓️ Week 9Digital elevation models",
-    "section": "Data acquisition",
-    "text": "Data acquisition\nTecniques\nElevation data can be measured by: 1. field surveying 2. photogrammetry 3. cartographic digitization 4. airborne laser scanning\nField surveys\n\n&lt;div style=\"float: left; position: relative; top: 0px; padding: 30px;\"&gt;\n![](figures/topo.png)\nSome text, some text, some text, some text, some text, […] some text, some text\n\n&lt;/div&gt;\nSome text, some text, some text, some text, some text, […] some text, some text"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides_dem.html#read-this-document",
-    "href": "2026/weeks/week02/slides_dem.html#read-this-document",
-    "title": "🗓️ Week 9Digital elevation models",
-    "section": "Read this document",
-    "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions"
-  },
-  {
-    "objectID": "2026/weeks/week02/page.html",
-    "href": "2026/weeks/week02/page.html",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "objectID": "2026/weeks/week03/page.html",
+    "href": "2026/weeks/week03/page.html",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
     "section": "",
-    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nWhat are the most important characteristics of geographic data?\nHow are geographic data transformed into information?\nWhat conceptual models are used to represent geographic objects and phenomena\nWhat are the most commonly used data structures and formats?",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nPractical exercises:\nReview coordinate systems’s metadata\nReproject vector and raster data",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 02"
+      "Week 03"
     ]
   },
   {
-    "objectID": "2026/weeks/week02/page.html#lecture-slides",
-    "href": "2026/weeks/week02/page.html#lecture-slides",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "objectID": "2026/weeks/week03/page.html#lecture-slides",
+    "href": "2026/weeks/week03/page.html#lecture-slides",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "section": "👨‍ Lecture Slides",
+    "text": "👨‍ Lecture Slides\nYou can find the slides here\n🎥",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 02"
+      "Week 03"
     ]
   },
   {
-    "objectID": "2026/weeks/week02/page.html#practical-exercises",
-    "href": "2026/weeks/week02/page.html#practical-exercises",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
-    "section": "Practical exercises",
-    "text": "Practical exercises\n\nFollow these instructions to extract municipios and elevation for your department and change their symbology.\nFollow these steps to add cities to your department:\n\n\nDownload a zip file with world cities\nAdd the unzipped csv file as “Delimited Text Layer”\nSelect the cities corresponding to your study area\nExport the selected cities as a geopackage\nChange Symbology for the cities in your department",
+    "objectID": "2026/weeks/week03/page.html#qgis-exercise",
+    "href": "2026/weeks/week03/page.html#qgis-exercise",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "section": "‍🏫 QGIS Exercise",
+    "text": "‍🏫 QGIS Exercise\n\nReproject vector and raster data in your Proyecto 1 and Proyecto 2 from EPSG:4326 to EPSG:9377",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 02"
+      "Week 03"
     ]
   },
   {
-    "objectID": "2026/weeks/week02/page.html#recommended-reading",
-    "href": "2026/weeks/week02/page.html#recommended-reading",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
-    "section": "📚 Recommended Reading",
-    "text": "📚 Recommended Reading\nRead this document and take notes",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 02"
-    ]
-  },
-  {
-    "objectID": "2026/weeks/week02/page.html#coursework",
-    "href": "2026/weeks/week02/page.html#coursework",
-    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "objectID": "2026/weeks/week03/page.html#coursework",
+    "href": "2026/weeks/week03/page.html#coursework",
+    "title": "🗓️ Week 03 - Coordinate systems and map projections",
     "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nQuestion 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion 2\n\n\n\n\n\n\nImportant",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nPart 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat are the geometric parameters associated to the ellipsoid GRS 80?\nWhat is the geoid?\nWhat are the most important characteristics of the geoid?\n\n\n\n\n\n\nPart 2\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is a datum?\nWhat is the datum MAGNA-SIRGAS?\nDescribe the Colombian map projection with Origen Nacional\n\n\n\n\n\n\nPart 3\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nExplore these tools",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 02"
+      "Week 03"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#discrete-objects-view",
+    "href": "2026/weeks/week02/slides.html#discrete-objects-view",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Discrete objects view",
+    "text": "Discrete objects view\nA discrete object has known and definable boundaries"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#continuous-surface-view",
+    "href": "2026/weeks/week02/slides.html#continuous-surface-view",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Continuous surface view",
+    "text": "Continuous surface view\nA continuous surface represents phenomena which may vary from place to place"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#points-and-lines",
+    "href": "2026/weeks/week02/slides.html#points-and-lines",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Points and lines",
+    "text": "Points and lines"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#polygons",
+    "href": "2026/weeks/week02/slides.html#polygons",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Polygons",
+    "text": "Polygons"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#multiple-representations",
+    "href": "2026/weeks/week02/slides.html#multiple-representations",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Multiple representations",
+    "text": "Multiple representations"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#spaghetti",
+    "href": "2026/weeks/week02/slides.html#spaghetti",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Spaghetti",
+    "text": "Spaghetti"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#topology",
+    "href": "2026/weeks/week02/slides.html#topology",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Topology",
+    "text": "Topology"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#gridded-structure",
+    "href": "2026/weeks/week02/slides.html#gridded-structure",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Gridded structure",
+    "text": "Gridded structure"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#cell-size",
+    "href": "2026/weeks/week02/slides.html#cell-size",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Cell size",
+    "text": "Cell size"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#cell-asignment",
+    "href": "2026/weeks/week02/slides.html#cell-asignment",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Cell asignment",
+    "text": "Cell asignment"
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#read-this-document",
+    "href": "2026/weeks/week02/slides.html#read-this-document",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Read this document",
+    "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions."
+  },
+  {
+    "objectID": "2026/weeks/week02/slides.html#go-back-to-this-week-page",
+    "href": "2026/weeks/week02/slides.html#go-back-to-this-week-page",
+    "title": "🗓️ Week 02 Spatial data models",
+    "section": "Go back to this week page",
+    "text": "Go back to this week page\nClick here"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#your-lecturer",
+    "href": "2026/weeks/week01/slides2.html#your-lecturer",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Your lecturer",
+    "text": "Your lecturer\n\n\n\n\n\nProf. Lizarazo Profesor Universidad Nacional de Colombia Investigador senior Minciencias Investigador principal SDGnexus Network\n\n\n\n\nPhD in Geography\nMSc in GIScience\nBackground: Civil Engineer\n\nMachine and Deep learning  GIS & Earth Observation  Territorial sustainability"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#students",
+    "href": "2026/weeks/week01/slides2.html#students",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Students",
+    "text": "Students\nPlease introduce yourselves\n:::"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#question-1",
+    "href": "2026/weeks/week01/slides2.html#question-1",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 1",
+    "text": "Question 1\nThe radius of Earth is … km"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#question-2",
+    "href": "2026/weeks/week01/slides2.html#question-2",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 2",
+    "text": "Question 2\nThe area of Colombia is … km2"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#question-3",
+    "href": "2026/weeks/week01/slides2.html#question-3",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 3",
+    "text": "Question 3\nThe area of Bogota municipality is … km2"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#question-4",
+    "href": "2026/weeks/week01/slides2.html#question-4",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 4",
+    "text": "Question 4\nThe UNAL Bogota campus is about … hectares"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#question-5",
+    "href": "2026/weeks/week01/slides2.html#question-5",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 5",
+    "text": "Question 5\nHow many hectares is 1 km by 1 km"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#question-6",
+    "href": "2026/weeks/week01/slides2.html#question-6",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Question 6",
+    "text": "Question 6\nThe distance between Sun and Earth is … km"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#basic-questions",
+    "href": "2026/weeks/week01/slides2.html#basic-questions",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Basic questions",
+    "text": "Basic questions\nTell us about your computational experience & skills"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#reading-doing-and-writing",
+    "href": "2026/weeks/week01/slides2.html#reading-doing-and-writing",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Reading, doing and writing",
+    "text": "Reading, doing and writing\nA flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#read-this-document-and-take-notes",
+    "href": "2026/weeks/week01/slides2.html#read-this-document-and-take-notes",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Read this document and take notes",
+    "text": "Read this document and take notes\n\nSpatial data models (Bolstad, 2019)"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#watch-this-video-and-take-notes",
+    "href": "2026/weeks/week01/slides2.html#watch-this-video-and-take-notes",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Watch this video and take notes",
+    "text": "Watch this video and take notes\n\nWhat is geomatics?\nWhich are its disciplines?\n\nLength: 12:34\nSpeaker: Amol Deshmukh"
+  },
+  {
+    "objectID": "2026/weeks/week01/slides2.html#supplementary-lecture",
+    "href": "2026/weeks/week01/slides2.html#supplementary-lecture",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Supplementary lecture",
+    "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
+  },
+  {
+    "objectID": "2026/weeks/week01/page.html",
+    "href": "2026/weeks/week01/page.html",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "",
+    "text": "In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week01/page.html#lecture-slides",
+    "href": "2026/weeks/week01/page.html#lecture-slides",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.\n\n\n\n\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week01/page.html#coursework",
+    "href": "2026/weeks/week01/page.html#coursework",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\nT1 - What is geomatics?\nT2 - Which are the geomatics disciplines?\nT3 - What is geodesy?\nT4 - What is cartography?\nT5 - What is computer science?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week01/page.html#recommended-reading-and-watching",
+    "href": "2026/weeks/week01/page.html#recommended-reading-and-watching",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "📚 Recommended Reading (and watching)",
+    "text": "📚 Recommended Reading (and watching)\n\nCheck the end of slides for the list of references cited in the lecture.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week01/page.html#communication",
+    "href": "2026/weeks/week01/page.html#communication",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "📟 Communication",
+    "text": "📟 Communication\n\nIf you feel like it, get to know your peers in the course and organize study groups",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 01"
+    ]
+  },
+  {
+    "objectID": "2026/index.html",
+    "href": "2026/index.html",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "",
+    "text": "📢 Writing Assignment\n\n\n\n\n\n(24/09/2026)\nBring color-printed the topographic map of your Departamento to the classroom on 30th September.\n\n\n\n\n\n\n\n\n\n📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\n📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "crumbs": [
+      "🏠 Home"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "",
+    "text": "📑 Course Brief\nFocus: the focus of this course is introduce concepts, methods and tecniques used in geoinformation disciplines.\nHow: reading, learning by doing and writing\n\n\n🎯 Learning Objectives\n\nUnderstand the usefulness of geospatial data for supporting agronomy.\nInternalize basic concepts about geodesy, cartography, GIS, remote sensing, and geostatistics.\nBe able to apply geospatial techniques for data collection, processing, visualization and analysis.\nDevelop critical spatial thinking.\n\n\n\n🎯 Class Atendance Policy\nStudents are expected to attend all classes. Occasional absences due to illness are considered excused. Participation in university activities must be requested in advance.\n\n\n🎯 Artificial Intelligence Policy\nStudents may use generative AI to support —not replace— their own thinking, effort, and style. In any case, the use of generative AI is permitted for up to 50% of the submitted work.\n\nSelect Academic Year/Term:\n 2026"
+  },
+  {
+    "objectID": "2026/syllabus.html",
+    "href": "2026/syllabus.html",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "",
+    "text": "DESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
+    "crumbs": [
+      "📓 Syllabus"
+    ]
+  },
+  {
+    "objectID": "2026/syllabus.html#evaluación-del-curso",
+    "href": "2026/syllabus.html#evaluación-del-curso",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "EVALUACIÓN DEL CURSO:",
+    "text": "EVALUACIÓN DEL CURSO:\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nPresentación de dos exámenes escritos (50%)\n\nExamen 1 - 8 de Octubre\nExamen 2 - 26 de Noviembre\n\nEntrega de dos informes técnicos (50%)\n\nInforme 1 - 15 de Octubre\nInforme 2 - 3 de Diciembre",
+    "crumbs": [
+      "📓 Syllabus"
+    ]
+  },
+  {
+    "objectID": "2026/syllabus.html#bibliografia",
+    "href": "2026/syllabus.html#bibliografia",
+    "title": "2015896 - GEOMATICA BASICA",
+    "section": "BIBLIOGRAFIA",
+    "text": "BIBLIOGRAFIA\n\n\n\n\n\n\nImportant\n\n\n\n\n\nBrunsdon, C. and Comber, L. An introduction to R for spatial analysis and mapping [2nd ed.], SAGE, 2019.\nDuncombe, R. Digital technologies for Agricultural and Rural Development in the Global South. CABI, 2018.\nGomarasca, M. Basics of Geomatics. Springer, 2009.\nLongley, P.A., Goodchild M.F., Maguire, D.J. and Rhind, D.W. Geographic Information Systems [4th edition], Wiley, 2015.\nLovelace, R., Nowosad, J., and Muenchow, J. Geocomputation with R [2nd ed.],CRC Press, 2023. Available at https://geocompr.robinlovelace.net/\nPebesma, E. & Bivand, R. Spatial data science with applications in R. CRC Press, 2023.\nPlant, R.E. Spatial Data Analysis in Ecology and Agriculture Using R [2nd ed.], CRC Press, 2019.\nWegman, M., Leutner, B., and Dech, S. Remote Sensing and GIS for Ecologists: using Open Source Software, Pelagic Publishing, 2016.",
+    "crumbs": [
+      "📓 Syllabus"
     ]
   },
   {
@@ -229,324 +610,190 @@
     "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
   },
   {
-    "objectID": "2026/syllabus.html",
-    "href": "2026/syllabus.html",
-    "title": "2015896 - GEOMATICA BASICA",
+    "objectID": "2026/weeks/week02/page.html",
+    "href": "2026/weeks/week02/page.html",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
     "section": "",
-    "text": "ImportantDESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
-    "crumbs": [
-      "📓 Syllabus"
-    ]
-  },
-  {
-    "objectID": "2026/syllabus.html#evaluación-del-curso",
-    "href": "2026/syllabus.html#evaluación-del-curso",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "EVALUACIÓN DEL CURSO:",
-    "text": "EVALUACIÓN DEL CURSO:\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nPresentación de dos exámenes escritos (50%)\n\nExamen 1 - 8 de Octubre\nExamen 2 - 26 de Noviembre\n\nEntrega de dos informes técnicos (50%)\n\nInforme 1 - 15 de Octubre\nInforme 2 - 3 de Diciembre",
-    "crumbs": [
-      "📓 Syllabus"
-    ]
-  },
-  {
-    "objectID": "2026/syllabus.html#bibliografia",
-    "href": "2026/syllabus.html#bibliografia",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "BIBLIOGRAFIA",
-    "text": "BIBLIOGRAFIA\n\n\n\n\n\n\nImportant\n\n\n\n\n\nBrunsdon, C. and Comber, L. An introduction to R for spatial analysis and mapping [2nd ed.], SAGE, 2019.\nDuncombe, R. Digital technologies for Agricultural and Rural Development in the Global South. CABI, 2018.\nGomarasca, M. Basics of Geomatics. Springer, 2009.\nLongley, P.A., Goodchild M.F., Maguire, D.J. and Rhind, D.W. Geographic Information Systems [4th edition], Wiley, 2015.\nLovelace, R., Nowosad, J., and Muenchow, J. Geocomputation with R [2nd ed.],CRC Press, 2023. Available at https://geocompr.robinlovelace.net/\nPebesma, E. & Bivand, R. Spatial data science with applications in R. CRC Press, 2023.\nPlant, R.E. Spatial Data Analysis in Ecology and Agriculture Using R [2nd ed.], CRC Press, 2019.\nWegman, M., Leutner, B., and Dech, S. Remote Sensing and GIS for Ecologists: using Open Source Software, Pelagic Publishing, 2016.",
-    "crumbs": [
-      "📓 Syllabus"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "",
-    "text": "📑 Course Brief\nFocus: the focus of this course is introduce concepts, methods and tecniques used in geoinformation disciplines.\nHow: reading, learning by doing and writing\n\n\n🎯 Learning Objectives\n\nUnderstand the usefulness of geospatial data for supporting agronomy.\nInternalize basic concepts about geodesy, cartography, GIS, remote sensing, and geostatistics.\nBe able to apply geospatial techniques for data collection, processing, visualization and analysis.\nDevelop critical spatial thinking.\n\n\n\n🎯 Class Atendance Policy\nStudents are expected to attend all classes. Occasional absences due to illness are considered excused. Participation in university activities must be requested in advance.\n\n\n🎯 Artificial Intelligence Policy\nStudents may use generative AI to support —not replace— their own thinking, effort, and style. In any case, the use of generative AI is permitted for up to 50% of the submitted work.\n\nSelect Academic Year/Term:\n 2026"
-  },
-  {
-    "objectID": "2026/index.html",
-    "href": "2026/index.html",
-    "title": "2015896 - GEOMATICA BASICA",
-    "section": "",
-    "text": "Important📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\nImportant📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
-    "crumbs": [
-      "🏠 Home"
-    ]
-  },
-  {
-    "objectID": "2026/weeks/week01/page.html",
-    "href": "2026/weeks/week01/page.html",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "",
-    "text": "In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nWhat are the most important characteristics of geographic data?\nHow are geographic data transformed into information?\nWhat conceptual models are used to represent geographic objects and phenomena\nWhat are the most commonly used data structures and formats?",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 01"
+      "Week 02"
     ]
   },
   {
-    "objectID": "2026/weeks/week01/page.html#lecture-slides",
-    "href": "2026/weeks/week01/page.html#lecture-slides",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "objectID": "2026/weeks/week02/page.html#lecture-slides",
+    "href": "2026/weeks/week02/page.html#lecture-slides",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
     "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.\n\n\n\n\n🎥",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 01"
+      "Week 02"
     ]
   },
   {
-    "objectID": "2026/weeks/week01/page.html#coursework",
-    "href": "2026/weeks/week01/page.html#coursework",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "objectID": "2026/weeks/week02/page.html#practical-exercises",
+    "href": "2026/weeks/week02/page.html#practical-exercises",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "Practical exercises",
+    "text": "Practical exercises\n\nFollow these instructions to extract municipios and elevation for your department and change their symbology.\nFollow these steps to add cities to your department:\n\n\nDownload a zip file with world cities\nAdd the unzipped csv file as “Delimited Text Layer”\nSelect the cities corresponding to your study area\nExport the selected cities as a geopackage\nChange Symbology for the cities in your department",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week02/page.html#recommended-reading",
+    "href": "2026/weeks/week02/page.html#recommended-reading",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nRead this document and take notes",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 02"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week02/page.html#coursework",
+    "href": "2026/weeks/week02/page.html#coursework",
+    "title": "🗓️ Week 02 - Geospatial data and geographical information",
     "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\nT1 - What is geomatics?\nT2 - Which are the geomatics disciplines?\nT3 - What is geodesy?\nT4 - What is cartography?\nT5 - What is computer science?",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nQuestion 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion 2\n\n\n\n\n\n\nImportant",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 01"
+      "Week 02"
     ]
   },
   {
-    "objectID": "2026/weeks/week01/page.html#recommended-reading-and-watching",
-    "href": "2026/weeks/week01/page.html#recommended-reading-and-watching",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "📚 Recommended Reading (and watching)",
-    "text": "📚 Recommended Reading (and watching)\n\nCheck the end of slides for the list of references cited in the lecture.",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 01"
-    ]
+    "objectID": "2026/weeks/week02/slides_dem.html#definitions",
+    "href": "2026/weeks/week02/slides_dem.html#definitions",
+    "title": "🗓️ Week 9Digital elevation models",
+    "section": "Definitions",
+    "text": "Definitions\nWhat is a DEM?\nA digital elevation model (DEM) is a general term representing ground elevation above sea level. In a DEM, all surface features (trees, buildings, bridges, etc.) are stripped away, and only the bare earth is represented.\nA DEM shows: - Topographic information (height asl) - Slopes - River beds - Hills, valleys, furrows and ridges\n\n\n\nWhat is a DTM?\nA digital terrain model (DTM) is a layer ‘on top’ of the DEM. It will show additional information that the bare earth DEM might not represent, including things like:\n\nBreaklines are changes in the terrain on a surface\nManmade and natural linear features of the bare earth terrain, such as roads, railway tracks, flood defences, pipelines, coastlines, or rivers.\n\n\n\n\nWhat is a DSM?\nA digital surface model (DSM) is a type of terrain that includes all features above the bare earth - both natural and man-made. It will include ground features such as buildings, infrastructure, trees, and vegetation. The layer will represent the height of all these features above the ground on which they stand."
   },
   {
-    "objectID": "2026/weeks/week01/page.html#communication",
-    "href": "2026/weeks/week01/page.html#communication",
-    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
-    "section": "📟 Communication",
-    "text": "📟 Communication\n\nIf you feel like it, get to know your peers in the course and organize study groups",
-    "crumbs": [
-      "🗓️ Weeks",
-      "Week 01"
-    ]
+    "objectID": "2026/weeks/week02/slides_dem.html#uses-of-topography-data",
+    "href": "2026/weeks/week02/slides_dem.html#uses-of-topography-data",
+    "title": "🗓️ Week 9Digital elevation models",
+    "section": "Uses of topography data",
+    "text": "Uses of topography data\nUses of DEMs & DTMs\nDEMs and DTMs help us understand the ‘natural’ shape of the earth’s surface - without the ‘distraction’ of buildings, trees, or other infrastructure.\nBoth are especially useful for things like: - Hydrology - Terrain form - Slope stability - Simulations\nUses of DSM\nDSMs show you both ground elevation and the height of everything above it. This allows you to understand how ground features interact with one another and the bare earth.\nDSMs are useful for things like: - Radio frequency planning - Private networks - Emergency planning - Line of sight planning - Smart city mapping"
   },
   {
-    "objectID": "2026/weeks/week01/slides2.html#your-lecturer",
-    "href": "2026/weeks/week01/slides2.html#your-lecturer",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Your lecturer",
-    "text": "Your lecturer\n\n\n\n\n\nProf. Lizarazo Profesor Universidad Nacional de Colombia Investigador senior Minciencias Investigador principal SDGnexus Network\n\n\n\n\nPhD in Geography\nMSc in GIScience\nBackground: Civil Engineer\n\nMachine and Deep learning  GIS & Earth Observation  Territorial sustainability"
+    "objectID": "2026/weeks/week02/slides_dem.html#data-acquisition",
+    "href": "2026/weeks/week02/slides_dem.html#data-acquisition",
+    "title": "🗓️ Week 9Digital elevation models",
+    "section": "Data acquisition",
+    "text": "Data acquisition\nTecniques\nElevation data can be measured by: 1. field surveying 2. photogrammetry 3. cartographic digitization 4. airborne laser scanning\nField surveys\n\n&lt;div style=\"float: left; position: relative; top: 0px; padding: 30px;\"&gt;\n![](figures/topo.png)\nSome text, some text, some text, some text, some text, […] some text, some text\n\n&lt;/div&gt;\nSome text, some text, some text, some text, some text, […] some text, some text"
   },
   {
-    "objectID": "2026/weeks/week01/slides2.html#students",
-    "href": "2026/weeks/week01/slides2.html#students",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Students",
-    "text": "Students\nPlease introduce yourselves\n:::"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#question-1",
-    "href": "2026/weeks/week01/slides2.html#question-1",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 1",
-    "text": "Question 1\nThe radius of Earth is … km"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#question-2",
-    "href": "2026/weeks/week01/slides2.html#question-2",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 2",
-    "text": "Question 2\nThe area of Colombia is … km2"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#question-3",
-    "href": "2026/weeks/week01/slides2.html#question-3",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 3",
-    "text": "Question 3\nThe area of Bogota municipality is … km2"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#question-4",
-    "href": "2026/weeks/week01/slides2.html#question-4",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 4",
-    "text": "Question 4\nThe UNAL Bogota campus is about … hectares"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#question-5",
-    "href": "2026/weeks/week01/slides2.html#question-5",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 5",
-    "text": "Question 5\nHow many hectares is 1 km by 1 km"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#question-6",
-    "href": "2026/weeks/week01/slides2.html#question-6",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Question 6",
-    "text": "Question 6\nThe distance between Sun and Earth is … km"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#basic-questions",
-    "href": "2026/weeks/week01/slides2.html#basic-questions",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Basic questions",
-    "text": "Basic questions\nTell us about your computational experience & skills"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#reading-doing-and-writing",
-    "href": "2026/weeks/week01/slides2.html#reading-doing-and-writing",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Reading, doing and writing",
-    "text": "Reading, doing and writing\nA flipped classroom is structured around the idea that lecture or direct instruction is not the best use of class time. Instead students encounter information before class, freeing class time for activities that involve higher order thinking"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#read-this-document-and-take-notes",
-    "href": "2026/weeks/week01/slides2.html#read-this-document-and-take-notes",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Read this document and take notes",
-    "text": "Read this document and take notes\n\nSpatial data models (Bolstad, 2019)"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#watch-this-video-and-take-notes",
-    "href": "2026/weeks/week01/slides2.html#watch-this-video-and-take-notes",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Watch this video and take notes",
-    "text": "Watch this video and take notes\n\nWhat is geomatics?\nWhich are its disciplines?\n\nLength: 12:34\nSpeaker: Amol Deshmukh"
-  },
-  {
-    "objectID": "2026/weeks/week01/slides2.html#supplementary-lecture",
-    "href": "2026/weeks/week01/slides2.html#supplementary-lecture",
-    "title": "🗓️ Week 01 Introduction",
-    "section": "Supplementary lecture",
-    "text": "Supplementary lecture\nYou can find a good introduction to geomatics in this document\nChapter 1 from Gomarasca, M. Basics of Geomatics. Springer, 2009."
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#discrete-objects-view",
-    "href": "2026/weeks/week02/slides.html#discrete-objects-view",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Discrete objects view",
-    "text": "Discrete objects view\nA discrete object has known and definable boundaries"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#continuous-surface-view",
-    "href": "2026/weeks/week02/slides.html#continuous-surface-view",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Continuous surface view",
-    "text": "Continuous surface view\nA continuous surface represents phenomena which may vary from place to place"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#points-and-lines",
-    "href": "2026/weeks/week02/slides.html#points-and-lines",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Points and lines",
-    "text": "Points and lines"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#polygons",
-    "href": "2026/weeks/week02/slides.html#polygons",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Polygons",
-    "text": "Polygons"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#multiple-representations",
-    "href": "2026/weeks/week02/slides.html#multiple-representations",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Multiple representations",
-    "text": "Multiple representations"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#spaghetti",
-    "href": "2026/weeks/week02/slides.html#spaghetti",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Spaghetti",
-    "text": "Spaghetti"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#topology",
-    "href": "2026/weeks/week02/slides.html#topology",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Topology",
-    "text": "Topology"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#gridded-structure",
-    "href": "2026/weeks/week02/slides.html#gridded-structure",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Gridded structure",
-    "text": "Gridded structure"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#cell-size",
-    "href": "2026/weeks/week02/slides.html#cell-size",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Cell size",
-    "text": "Cell size"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#cell-asignment",
-    "href": "2026/weeks/week02/slides.html#cell-asignment",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Cell asignment",
-    "text": "Cell asignment"
-  },
-  {
-    "objectID": "2026/weeks/week02/slides.html#read-this-document",
-    "href": "2026/weeks/week02/slides.html#read-this-document",
-    "title": "🗓️ Week 02 Spatial data models",
+    "objectID": "2026/weeks/week02/slides_dem.html#read-this-document",
+    "href": "2026/weeks/week02/slides_dem.html#read-this-document",
+    "title": "🗓️ Week 9Digital elevation models",
     "section": "Read this document",
-    "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions."
+    "text": "Read this document\nIt deals with planar and spherical coordinate systems (Bolstad, 2019)\nThen, answer this week questions"
   },
   {
-    "objectID": "2026/weeks/week02/slides.html#go-back-to-this-week-page",
-    "href": "2026/weeks/week02/slides.html#go-back-to-this-week-page",
-    "title": "🗓️ Week 02 Spatial data models",
-    "section": "Go back to this week page",
-    "text": "Go back to this week page\nClick here"
-  },
-  {
-    "objectID": "2026/weeks/week03/page.html",
-    "href": "2026/weeks/week03/page.html",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "objectID": "2026/weeks/week04/page.html",
+    "href": "2026/weeks/week04/page.html",
+    "title": "🗓️ Week 04 - Fundamentals of Cartography",
     "section": "",
-    "text": "In this week, we will cover the following topics:\nTheoretical topics:\nPractical exercises:\nReview coordinate systems’s metadata\nReproject vector and raster data",
+    "text": "In this week, we will cover the following topics:\nTheoretical topics:",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 03"
+      "Week 04"
     ]
   },
   {
-    "objectID": "2026/weeks/week03/page.html#lecture-slides",
-    "href": "2026/weeks/week03/page.html#lecture-slides",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
-    "section": "👨‍ Lecture Slides",
-    "text": "👨‍ Lecture Slides\nYou can find the slides here\n🎥",
+    "objectID": "2026/weeks/week04/page.html#lecture-slides",
+    "href": "2026/weeks/week04/page.html#lecture-slides",
+    "title": "🗓️ Week 04 - Fundamentals of Cartography",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 03"
+      "Week 04"
     ]
   },
   {
-    "objectID": "2026/weeks/week03/page.html#qgis-exercise",
-    "href": "2026/weeks/week03/page.html#qgis-exercise",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
-    "section": "‍🏫 QGIS Exercise",
-    "text": "‍🏫 QGIS Exercise\n\nReproject vector and raster data in your Proyecto 1 and Proyecto 2 from EPSG:4326 to EPSG:9377",
+    "objectID": "2026/weeks/week04/page.html#practical-exercises",
+    "href": "2026/weeks/week04/page.html#practical-exercises",
+    "title": "🗓️ Week 04 - Fundamentals of Cartography",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\nStudents make two maps for Department X:\n\n1. A political map displaying municipalities, roads and urban centers\n\n\n2. A physical map displaying elevation, hidrography and urban centers\n\n\nGuide:\nHow to make a map of municipalities in QGIS\n🎥",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 03"
+      "Week 04"
     ]
   },
   {
-    "objectID": "2026/weeks/week03/page.html#coursework",
-    "href": "2026/weeks/week03/page.html#coursework",
-    "title": "🗓️ Week 03 - Coordinate systems and map projections",
+    "objectID": "2026/weeks/week04/page.html#recommended-reading",
+    "href": "2026/weeks/week04/page.html#recommended-reading",
+    "title": "🗓️ Week 04 - Fundamentals of Cartography",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\n\nRead Cartography: an Introduction and take notes\nRead What is a Choropleth Map",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 04"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week04/page.html#coursework",
+    "href": "2026/weeks/week04/page.html#coursework",
+    "title": "🗓️ Week 04 - Fundamentals of Cartography",
     "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nPart 1\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat are the geometric parameters associated to the ellipsoid GRS 80?\nWhat is the geoid?\nWhat are the most important characteristics of the geoid?\n\n\n\n\n\n\nPart 2\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is a datum?\nWhat is the datum MAGNA-SIRGAS?\nDescribe the Colombian map projection with Origen Nacional\n\n\n\n\n\n\nPart 3\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nExplore these tools",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nCartography\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nWhat is the geographic area covered by one IGAC map sheet at 1:100000 scale?\nAt 1:25000 scale map, how many cm2 represent 100 ha?\nAt 1:5000 scale map, 10 cm2 equals how many hectares?\nWhat is the appropriate method of grouping numeric data in a choropleth map? Explain",
     "crumbs": [
       "🗓️ Weeks",
-      "Week 03"
+      "Week 04"
     ]
+  },
+  {
+    "objectID": "2026/weeks/week05/page_R.html",
+    "href": "2026/weeks/week05/page_R.html",
+    "title": "🗓️ Week 05 - Getting to know R",
+    "section": "",
+    "text": "In this week, we will start learning R and RStudio"
+  },
+  {
+    "objectID": "2026/weeks/week05/page_R.html#why-learn-r",
+    "href": "2026/weeks/week05/page_R.html#why-learn-r",
+    "title": "🗓️ Week 05 - Getting to know R",
+    "section": "Why Learn R?",
+    "text": "Why Learn R?"
+  },
+  {
+    "objectID": "2026/weeks/week05/page_R.html#lecture-slides",
+    "href": "2026/weeks/week05/page_R.html#lecture-slides",
+    "title": "🗓️ Week 05 - Getting to know R",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here"
+  },
+  {
+    "objectID": "2026/weeks/week05/page_R.html#practical-exercises",
+    "href": "2026/weeks/week05/page_R.html#practical-exercises",
+    "title": "🗓️ Week 05 - Getting to know R",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\n\n\n\n\n\nNote\n\n\n\n\n\nEjercicios Sesión 06.09\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\nEjercicios Sesión 07.09"
+  },
+  {
+    "objectID": "2026/weeks/week05/page_R.html#homework",
+    "href": "2026/weeks/week05/page_R.html#homework",
+    "title": "🗓️ Week 05 - Getting to know R",
+    "section": "Homework",
+    "text": "Homework\n\n** Print the two color maps of your department and bring them to the classroom **\n🎥"
+  },
+  {
+    "objectID": "2026/weeks/week05/page_R.html#recommended-reading",
+    "href": "2026/weeks/week05/page_R.html#recommended-reading",
+    "title": "🗓️ Week 05 - Getting to know R",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy R for Non-Programmers and do the exercises"
+  },
+  {
+    "objectID": "2026/weeks/week05/page_R.html#coursework",
+    "href": "2026/weeks/week05/page_R.html#coursework",
+    "title": "🗓️ Week 05 - Getting to know R",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nEjercicios en R\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nEscriba una función que calcule la distancia entre dos puntos cuyas coordenadas x, y son conocidas\nEscriba una función que calcule la longitud de un arco terrestre si se indica su ángulo y la latitud correspondiente\n\n\n\n\n\n\nEjercicios en GeoJSON Studio\n\n\n\n\n\n\nImportant\n\n\n\n\n\nVaya a GeoJSON Studio, haga zoom en el campus UNAL y dibuje objetos de interés. Exporte los datos en formato GeoJSON y agreguelos a un nuevo proyecto en QGIS."
   }
 ]
