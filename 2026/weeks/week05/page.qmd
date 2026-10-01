@@ -13,9 +13,13 @@ You can find the slides [here](slides.qmd)
 
 ## **Practical exercises**:
 
--  Download the shapefile of [Indice de Probreza Multidimensional (IPM)](https://dane.maps.arcgis.com/apps/MapJournal/index.html?appid=54595086fdd74) by DANE(2020)
+-  Visualize [Indice de Probreza Multidimensional (IPM)](https://dane.maps.arcgis.com/home/item.html?id=6107cbd52ebe400ba76be80bce7b3b29#overview) by DANE(2020)
 
--  Preprocess the shapefile to cover only your department
+-  Add a new ArcGIS REST Server Layer using [this URL](https://services1.arcgis.com/I4YYbPSw13ugmbAP/arcgis/rest/services/IPM_simp_gdb/FeatureServer)
+
+-  Export the layers to a geopackage file
+
+-  Select the IPM layers corresponding to your department and export to *IPM_DeptoX.gpkg*
 
 -  Add municipalities, population, roads, cities, and IPM layers to a new QGIS project
 
@@ -23,7 +27,7 @@ You can find the slides [here](slides.qmd)
 
 -  Make a map of IPM and colour print it 
 
-**Make sure you upload the IPM map to the drive on 17th September**
+**Make sure you bring the IPM map to the classroom on 8th October**
 
 🎥 
 
