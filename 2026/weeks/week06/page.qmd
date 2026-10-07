@@ -1,43 +1,51 @@
 ---
-title: "🗓️ Week 06 - Data Wrangling with  **R**"
+title: "🗓️ Week 06 - Getting to know **R**"
 ---
 
-In this week, we will practice **Data Wrangling** 
+In this week, we will start learning **R** and **RStudio**
 
-## Why is data wrangling?
-
-Data wrangling is the process of converting raw data into a usable form. It may also be called data munging or data remediation.
-
-You'll typically go through the data wrangling process prior to conducting any data analysis in order to ensure your data is reliable and complete. This way, you can be confident that the insights you draw are accurate and valuable.
+## Why Learn R?
+<figure>
+  <img align="center" width="600" height="500" src="figures/why_learn_R.png">
+</figure>
 
 
 ## 👨‍🏫 Lecture Slides 
 
-In this week, we'll learn how to use the *dplyr* R library to conduct data wrangling. You can find info about *dplyr* [here](https://dplyr.tidyverse.org/)
-
-In addition, we we'll learn [how to create an R Notebook](https://yihui.org/rmarkdown/notebook)
+You can find the slides [here](https://drive.google.com/file/d/1THssVqZ7iD0k7nJzCLijqMPvCpV-4Q42/view?usp=sharing)
 
 
 ## **Practical exercises**:
-
-Students complete and publish two notebooks this week:
-
 ::: {.callout-note collapse="true"}
-[First steps with dplyr](https://rpubs.com/ials2un/try_dplyr)
+[Ejercicios 1](https://www.uv.es/conesa/CursoR/material/problemas-sesion1.pdf)
 :::
 ::: {.callout-note collapse="true"}
-[R notebook on agricultural statistics](https://rpubs.com/ials2un/production_dyn_v1)
+[Ejercicios 2](https://www.uv.es/conesa/CursoR/material/problemas-sesion2.pdf)
 :::
 
 ## Homework
-### ** Publish the notebook on agricultural statistics for  your crop & department **
+### ** Prepare your Informe No. 1 and bring it on due date**
 
 🎥 
 
 ## 📚 Recommended Reading 
 
-Study [Evaluaciones Agropecuarias Municipales - EVA](https://upra.gov.co/es-co/Paginas/eva.aspx).
+Study [R for Non-Programmers](https://bookdown.org/daniel_dauber_io/r4np_book/) and do the exercises
 
+## ✍️ Coursework
+
+🚧 In your  notebook,  answer the following questions 🚧
+
+### Ejercicios en R
+::: {.callout-important collapse=true}
+1. Escriba una función que calcule la distancia entre dos puntos cuyas coordenadas *x*, *y* son conocidas
+2. Escriba una función que calcule la longitud de un arco terrestre si se indica su ángulo  y la latitud correspondiente
+:::
+
+### Ejercicios en GeoJSON Studio
+::: {.callout-important collapse=true}
+Vaya a [GeoJSON Studio](https://geojsonstudio.com/), haga zoom en el campus UNAL y dibuje objetos de interés. Exporte los datos en formato GeoJSON y agreguelos a un nuevo proyecto en QGIS. 
+:::
 
 
 
