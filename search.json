@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "2026/weeks/week06/page_data_wrangling.html",
+    "href": "2026/weeks/week06/page_data_wrangling.html",
+    "title": "🗓️ Week 06 - Data Wrangling with R",
+    "section": "",
+    "text": "In this week, we will practice Data Wrangling"
+  },
+  {
+    "objectID": "2026/weeks/week06/page_data_wrangling.html#why-is-data-wrangling",
+    "href": "2026/weeks/week06/page_data_wrangling.html#why-is-data-wrangling",
+    "title": "🗓️ Week 06 - Data Wrangling with R",
+    "section": "Why is data wrangling?",
+    "text": "Why is data wrangling?\nData wrangling is the process of converting raw data into a usable form. It may also be called data munging or data remediation.\nYou’ll typically go through the data wrangling process prior to conducting any data analysis in order to ensure your data is reliable and complete. This way, you can be confident that the insights you draw are accurate and valuable."
+  },
+  {
+    "objectID": "2026/weeks/week06/page_data_wrangling.html#lecture-slides",
+    "href": "2026/weeks/week06/page_data_wrangling.html#lecture-slides",
+    "title": "🗓️ Week 06 - Data Wrangling with R",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nIn this week, we’ll learn how to use the dplyr R library to conduct data wrangling. You can find info about dplyr here\nIn addition, we we’ll learn how to create an R Notebook"
+  },
+  {
+    "objectID": "2026/weeks/week06/page_data_wrangling.html#practical-exercises",
+    "href": "2026/weeks/week06/page_data_wrangling.html#practical-exercises",
+    "title": "🗓️ Week 06 - Data Wrangling with R",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\nStudents complete and publish two notebooks this week:\n\n\n\n\n\n\nNote\n\n\n\n\n\nFirst steps with dplyr\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\nR notebook on agricultural statistics"
+  },
+  {
+    "objectID": "2026/weeks/week06/page_data_wrangling.html#homework",
+    "href": "2026/weeks/week06/page_data_wrangling.html#homework",
+    "title": "🗓️ Week 06 - Data Wrangling with R",
+    "section": "Homework",
+    "text": "Homework\n\n** Publish the notebook on agricultural statistics for your crop & department **\n🎥"
+  },
+  {
+    "objectID": "2026/weeks/week06/page_data_wrangling.html#recommended-reading",
+    "href": "2026/weeks/week06/page_data_wrangling.html#recommended-reading",
+    "title": "🗓️ Week 06 - Data Wrangling with R",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy Evaluaciones Agropecuarias Municipales - EVA."
+  },
+  {
     "objectID": "2026/weeks/week05/slides.html#goal",
     "href": "2026/weeks/week05/slides.html#goal",
     "title": "🗓️ Week 5Non spatial joins",
@@ -476,7 +518,7 @@
     "href": "2026/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "Important📢 Cartography Assignment\n\n\n\n\n\n(24/09/2026)\nBring color-printed the topographic map of your Departamento to the classroom on 30th September.\n\n\n\n\n\n\n\n\n\nImportant📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\nImportant📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "text": "📢 Cartography Assignment\n\n\n\n\n\n(24/09/2026)\nBring color-printed the topographic map of your Departamento to the classroom on 30th September.\n\n\n\n\n\n\n\n\n\n📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\n📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
     "crumbs": [
       "🏠 Home"
     ]
@@ -493,7 +535,7 @@
     "href": "2026/syllabus.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "ImportantDESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
+    "text": "DESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
     "crumbs": [
       "📓 Syllabus"
     ]
@@ -795,5 +837,82 @@
     "title": "🗓️ Week 05 - Getting to know R",
     "section": "✍️ Coursework",
     "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nEjercicios en R\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nEscriba una función que calcule la distancia entre dos puntos cuyas coordenadas x, y son conocidas\nEscriba una función que calcule la longitud de un arco terrestre si se indica su ángulo y la latitud correspondiente\n\n\n\n\n\n\nEjercicios en GeoJSON Studio\n\n\n\n\n\n\nImportant\n\n\n\n\n\nVaya a GeoJSON Studio, haga zoom en el campus UNAL y dibuje objetos de interés. Exporte los datos en formato GeoJSON y agreguelos a un nuevo proyecto en QGIS."
+  },
+  {
+    "objectID": "2026/weeks/week06/page.html",
+    "href": "2026/weeks/week06/page.html",
+    "title": "🗓️ Week 06 - Getting to know R",
+    "section": "",
+    "text": "In this week, we will start learning R and RStudio",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week06/page.html#why-learn-r",
+    "href": "2026/weeks/week06/page.html#why-learn-r",
+    "title": "🗓️ Week 06 - Getting to know R",
+    "section": "Why Learn R?",
+    "text": "Why Learn R?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week06/page.html#lecture-slides",
+    "href": "2026/weeks/week06/page.html#lecture-slides",
+    "title": "🗓️ Week 06 - Getting to know R",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nYou can find the slides here",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week06/page.html#practical-exercises",
+    "href": "2026/weeks/week06/page.html#practical-exercises",
+    "title": "🗓️ Week 06 - Getting to know R",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\n\n\n\n\n\nNote\n\n\n\n\n\nEjercicios 1\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\nEjercicios 2",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week06/page.html#homework",
+    "href": "2026/weeks/week06/page.html#homework",
+    "title": "🗓️ Week 06 - Getting to know R",
+    "section": "Homework",
+    "text": "Homework\n\n** Prepare your Informe No. 1 and bring it on due date**\n🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week06/page.html#recommended-reading",
+    "href": "2026/weeks/week06/page.html#recommended-reading",
+    "title": "🗓️ Week 06 - Getting to know R",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy R for Non-Programmers and do the exercises",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week06/page.html#coursework",
+    "href": "2026/weeks/week06/page.html#coursework",
+    "title": "🗓️ Week 06 - Getting to know R",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 In your notebook, answer the following questions 🚧\n\nEjercicios en R\n\n\n\n\n\n\nImportant\n\n\n\n\n\n\nEscriba una función que calcule la distancia entre dos puntos cuyas coordenadas x, y son conocidas\nEscriba una función que calcule la longitud de un arco terrestre si se indica su ángulo y la latitud correspondiente\n\n\n\n\n\n\nEjercicios en GeoJSON Studio\n\n\n\n\n\n\nImportant\n\n\n\n\n\nVaya a GeoJSON Studio, haga zoom en el campus UNAL y dibuje objetos de interés. Exporte los datos en formato GeoJSON y agreguelos a un nuevo proyecto en QGIS.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 06"
+    ]
   }
 ]
