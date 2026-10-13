@@ -1,31 +1,42 @@
 ---
-title: "🗓️ Week 7 - Handling geospatial data with **R**"
+title: "🗓️ Week 07 - Data Wrangling with  **R**"
 ---
 
-In this week, we will handle **geospatial data** using R. 
+In this week, we will practice **Data Wrangling** 
+
+## Why is data wrangling?
+
+Data wrangling is the process of converting raw data into a usable form. It may also be called data munging or data remediation.
+
+You'll typically go through the data wrangling process prior to conducting any data analysis in order to ensure your data is reliable and complete. This way, you can be confident that the insights you draw are accurate and valuable.
 
 
 ## 👨‍🏫 Lecture Slides 
 
-We'll learn how to use  R libraries to read, query and visualize geospatial data. In particular, we will focus on [*simple features for R*](https://r-spatial.github.io/sf/articles/sf1.html)
+In this week, we'll learn how to use the *dplyr* R library to conduct data wrangling. You can find info about *dplyr* [here](https://dplyr.tidyverse.org/)
+
+In addition, we we'll learn [how to create an R Notebook](https://yihui.org/rmarkdown/notebook)
 
 
 ## **Practical exercises**:
 
-### [Introduction to simple features in R](https://rpubs.com/ials2un/GB_simple_features)
+Students complete and publish two notebooks not later than 22th October:
 
-### [Agricultural data](https://rpubs.com/ials2un/okra_vez_eva)
-
+::: {.callout-note collapse="true"}
+[First steps with dplyr](https://rpubs.com/ials2un/try_dplyr)
+:::
+::: {.callout-note collapse="true"}
+[R notebook on agricultural statistics](https://rpubs.com/ials2un/production_dyn_v1)
+:::
 
 ## Homework
-
-### ** Publish your two notebooks **
+### ** Publish the notebook on agricultural statistics for  your crop & department **
 
 🎥 
 
 ## 📚 Recommended Reading 
 
-Study [Tutorial de Leaflet en R](https://rpubs.com/Juve_Campos/LeafletTutorial).
+Study [Evaluaciones Agropecuarias Municipales - EVA](https://upra.gov.co/es-co/Paginas/eva.aspx).
 
 
 

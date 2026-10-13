@@ -5,11 +5,9 @@ format: html
 ---
 
 ::: {.callout-important collapse=false}
-## 📢 Cartography Assignment
+## 📢 Informe No. 1
 
-(24/09/2026)
-
-Bring color-printed the *topographic map* of your *Departamento* to the classroom on 30th September.
+Submit the three color-printed maps as well as their descriptions  on 15th October.
 
 :::
 
