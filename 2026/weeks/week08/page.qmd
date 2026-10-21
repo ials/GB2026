@@ -1,39 +1,24 @@
 ---
-title: "🗓️ Week 8 - Join spatial and no spatial data"
+title: "🗓️ Week 8  - Handling geospatial data with **R**"
 ---
 
-In this week, we understand how to read, process, and analyze spatial data in R. 
+In this week, we will handle **geospatial data** using R. 
 
 
 ## 👨‍🏫 Lecture Slides 
 
-We'll learn:
-
-- What are [*joins*](https://dplyr.tidyverse.org/reference/mutate-joins.html)
-
-- What are main functionalities of the [simple features (sf) library](https://github.com/rstudio/cheatsheets/blob/main/sf.pdf)
+We'll learn how to use  R libraries to read, query and visualize geospatial data. In particular, we will focus on [*simple features for R*](https://r-spatial.github.io/sf/articles/sf1.html)
 
 
 ## **Practical exercises**:
 
-Students complete one geospatial notebook:
+### [Introduction to simple features in R](https://rpubs.com/ials2un/GB_simple_features)
 
-#### Joins & thematic maps
-::: {.callout-important collapse="true"}
-[Link to the guide](https://rpubs.com/ials2un/thematic_maps_v2)
-:::
+### [Agricultural data](https://rpubs.com/ials2un/okra_vez_eva)
 
-
-## Homework
-1. Publish your geospatial notebook 
-2. Create several geospatial data (i.e. points, lines and polygons ) using [geojson.studio](https://geojson.studio/) 
-🎥 
 
 ## 📚 Recommended Reading 
 
-Study [dplyr joins](https://dplyr.tidyverse.org/reference/mutate-joins.html).
-
-
-
+Study [Tutorial de Leaflet en R](https://rpubs.com/Juve_Campos/LeafletTutorial).
 
 
