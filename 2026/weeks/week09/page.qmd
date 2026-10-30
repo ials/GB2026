@@ -1,39 +1,38 @@
 ---
-title: "🗓️ Week 9  - Geomorphometry"
+title: "🗓️ Week 8 - Join spatial and no spatial data"
 ---
 
-In this week, we will learn how to obtain geomorphometric variables from digital elevation models (DEMs). 
+In this week, we understand how to read, process, and analyze spatial data in R. 
 
 
 ## 👨‍🏫 Lecture Slides 
 
 We'll learn:
 
-- [What is geomorphometry](https://www.geomorphometry.org/uploads/pdf/Pike_2008_Geomorphometry_ch1.pdf)
+- What are [*joins*](https://dplyr.tidyverse.org/reference/mutate-joins.html)
 
-- [What variables can be derived from a DEM?](https://drive.google.com/file/d/15cJRUeEQw2nMi8VK9Lk8v1frv_DC3JsY/view?usp=sharing)
-
-- How to calculate slope from a DEM?
+- What are main functionalities of the [simple features (sf) library](https://github.com/rstudio/cheatsheets/blob/main/sf.pdf)
 
 
 ## **Practical exercises**:
 
+Students complete one geospatial notebook:
 
-#### DEM processing and analysis
+#### Joins & thematic maps
 ::: {.callout-important collapse="true"}
-[Geomorphometric terrain attributes](https://rpubs.com/ials2un/geomorphometric)
+[Link to the guide](https://rpubs.com/ials2un/thematic_maps_v2)
 :::
 
 
 ## Homework
-Replicate and publish the *Geomorphometric* notebook within this week.
+1. Publish your geospatial notebook 
+2. Create several geospatial data (i.e. points, lines and polygons ) using [geojson.studio](https://geojson.studio/) 
 🎥 
 
 ## 📚 Recommended Reading 
 
-- Study [how slope works](https://pro.arcgis.com/en/pro-app/3.0/tool-reference/spatial-analyst/how-slope-works.htm).
+Study [dplyr joins](https://dplyr.tidyverse.org/reference/mutate-joins.html).
 
-- Study [how aspect works](https://pro.arcgis.com/en/pro-app/3.3/tool-reference/spatial-analyst/how-aspect-works.htm).
 
 
 

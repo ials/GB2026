@@ -1,0 +1,39 @@
+---
+title: "🗓️ Week 8 - Join spatial and no spatial data"
+---
+
+In this week, we understand how to read, process, and analyze spatial data in R. 
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn:
+
+- What are [*joins*](https://dplyr.tidyverse.org/reference/mutate-joins.html)
+
+- What are main functionalities of the [simple features (sf) library](https://github.com/rstudio/cheatsheets/blob/main/sf.pdf)
+
+
+## **Practical exercises**:
+
+Students complete one geospatial notebook:
+
+#### Joins & thematic maps
+::: {.callout-important collapse="true"}
+[Link to the guide](https://rpubs.com/ials2un/thematic_maps_v2)
+:::
+
+
+## Homework
+1. Publish your geospatial notebook 
+2. Create several geospatial data (i.e. points, lines and polygons ) using [geojson.studio](https://geojson.studio/) 
+🎥 
+
+## 📚 Recommended Reading 
+
+Study [dplyr joins](https://dplyr.tidyverse.org/reference/mutate-joins.html).
+
+
+
+
+
