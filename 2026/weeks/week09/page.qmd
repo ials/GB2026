@@ -11,6 +11,8 @@ We'll learn:
 
 - What are [*joins*](https://intro2r.library.duke.edu/join.html)
 
+- [Joining tables](https://tavareshugo.github.io/r-intro-tidyverse-gapminder/08-joins/index.html)
+
 - What are main functionalities of the [simple features (sf) library](https://github.com/rstudio/cheatsheets/blob/main/sf.pdf)
 
 
