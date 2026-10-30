@@ -9,7 +9,7 @@ In this week, we understand how to read, process, and analyze spatial data in R.
 
 We'll learn:
 
-- What are [*joins*](https://dplyr.tidyverse.org/reference/mutate-joins.html)
+- What are [*joins*](https://intro2r.library.duke.edu/join.html)
 
 - What are main functionalities of the [simple features (sf) library](https://github.com/rstudio/cheatsheets/blob/main/sf.pdf)
 
