@@ -50,7 +50,7 @@
     "href": "2026/weeks/week09/page.html#lecture-slides",
     "title": "🗓️ Week 8 - Join spatial and no spatial data",
     "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat are joins\nWhat are main functionalities of the simple features (sf) library",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat are joins\nJoining tables\nWhat are main functionalities of the simple features (sf) library",
     "crumbs": [
       "🗓️ Weeks",
       "Week 09"
