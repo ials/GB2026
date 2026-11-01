@@ -18,13 +18,14 @@ We'll learn:
 
 ## **Practical exercises**:
 
-Students complete one geospatial notebook:
+Students complete one geospatial notebook within this week:
 
 #### Joins & thematic maps
 ::: {.callout-important collapse="true"}
-[Link to the guide](https://rpubs.com/ials2un/thematic_maps_v2)
+[Link to the guide](https://rpubs.com/ials2un/1472445)
 :::
 
+Note that the publication of this notebook counts for *Informe No. 2*.
 
 ## Homework
 1. Publish your geospatial notebook 
