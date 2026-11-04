@@ -7,6 +7,13 @@ format: html
 ::: {.callout-important collapse=false}
 ## 📢 Informe No. 1
 
+![](GB_INFORME1.png)
+
+:::
+
+::: {.callout-important collapse=true}
+## 📢 Informe No. 1
+
 Submit the three color-printed maps as well as their descriptions  on 15th October.
 
 :::
