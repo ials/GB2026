@@ -32,9 +32,9 @@ Note that the publication of this notebook counts for *Informe No. 2*.
 2. Create several geospatial data (i.e. points, lines and polygons ) using [geojson.studio](https://geojson.studio/) 
 🎥 
 
-## 📚 Recommended Reading 
+## 📚 Required reading 
 
-Study [dplyr joins](https://dplyr.tidyverse.org/reference/mutate-joins.html).
+Study [Geometric functions in R](https://rpubs.com/ials2un/sf_geom1).
 
 
 
