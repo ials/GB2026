@@ -1,0 +1,30 @@
+---
+title: "🗓️ Week 10  - Remote Sensing"
+---
+
+In this week, we will learn what is remote sensing and what it is used for?
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn:
+
+- [Introduction to Remote Sensing](https://drive.google.com/file/d/1GUxQS16arawLz3pmZKExkPOW8WtyQPVL/view?usp=sharing)
+
+
+## **Practical exercises**:
+
+
+[Download Sentinel-2 data for your municipality](https://rpubs.com/ials2un/1436811)
+
+
+## 📚 Homework
+
+- [Learn to explore Sentinel-2 imagery](https://livingatlas.arcgis.com/sentinel2explorer).
+
+
+
+
+
+
+
