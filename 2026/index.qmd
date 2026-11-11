@@ -4,7 +4,7 @@ subtitle: "Academic Year: 2026"
 format: html
 ---
 
-::: {.callout-important collapse=false}
+::: {.callout-important collapse=true}
 ## 📢 Informe No. 1
 
 ![](GB_INFORME1.png)

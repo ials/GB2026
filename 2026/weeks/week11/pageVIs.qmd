@@ -1,0 +1,38 @@
+---
+title: "🗓️ Week 11 - Vegetation Indices"
+---
+
+In this week, we will learn about *vegetation indices*
+
+
+## 👨‍🏫 Lecture Slides 
+
+We'll learn:
+
+- [What is a Vegetation Index?](https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/)?
+
+
+## **Practical exercises**:
+
+
+#### Compute a vegetation index from Sentinel-2 imagery
+::: {.callout-important collapse="false"}
+[Replicate and publish this notebook](https://rpubs.com/ials2un/sentinel2_ts). It is part of Informe 2.
+:::
+
+
+## 📚 Homework
+
+Study [this article](https://www.mdpi.com/1424-8220/25/12/3817). Take note of the formulas for the vegetation indices described in Section 2.2. You will need them for Examen 2.
+
+## Grades
+
+- [Notas Examen 1](figures/GB_EXAMEN1_26.png)
+
+- [Notas Informe 1](figures/GB_INFORME1_26.png)
+
+
+
+
+
+

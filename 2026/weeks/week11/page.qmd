@@ -1,37 +1,39 @@
 ---
-title: "🗓️ Week 11 - Vegetation Indices"
+title: "🗓️ Week 11  - Geomorphometry"
 ---
 
-In this week, we will learn about *vegetation indices*
+In this week, we will learn how to obtain geomorphometric variables from digital elevation models (DEMs). 
 
 
 ## 👨‍🏫 Lecture Slides 
 
 We'll learn:
 
-- [What is a Vegetation Index?](https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/)?
+- [What is geomorphometry](https://www.geomorphometry.org/uploads/pdf/Pike_2008_Geomorphometry_ch1.pdf)
+
+- [What variables can be derived from a DEM?](https://drive.google.com/file/d/15cJRUeEQw2nMi8VK9Lk8v1frv_DC3JsY/view?usp=sharing)
+
+- How to calculate slope from a DEM?
 
 
 ## **Practical exercises**:
 
 
-#### Compute a vegetation index from Sentinel-2 imagery
-::: {.callout-important collapse="false"}
-[Replicate and publish this notebook](https://rpubs.com/ials2un/sentinel2_ts). It is part of Informe 2.
+#### DEM processing and analysis
+::: {.callout-important collapse="true"}
+[Geomorphometric terrain attributes](https://rpubs.com/ials2un/geomorphometric)
 :::
 
 
-## 📚 Homework
+## Homework
+Replicate and publish the *Geomorphometric* notebook.
+🎥 
 
-Study [this article](https://www.mdpi.com/1424-8220/25/12/3817). Take note of the formulas for the vegetation indices described in Section 2.2. You will need them for Examen 2.
+## 📚 Recommended Reading 
 
-## Grades
+- Study [how slope works](https://pro.arcgis.com/en/pro-app/3.0/tool-reference/spatial-analyst/how-slope-works.htm).
 
-- [Notas Examen 1](figures/GB_EXAMEN1_26.png)
-
-- [Notas Informe 1](figures/GB_INFORME1_26.png)
-
-
+- Study [how aspect works](https://pro.arcgis.com/en/pro-app/3.3/tool-reference/spatial-analyst/how-aspect-works.htm).
 
 
 
