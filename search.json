@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "2026/weeks/week11/pageVIs.html",
+    "href": "2026/weeks/week11/pageVIs.html",
+    "title": "🗓️ Week 11 - Vegetation Indices",
+    "section": "",
+    "text": "In this week, we will learn about vegetation indices"
+  },
+  {
+    "objectID": "2026/weeks/week11/pageVIs.html#lecture-slides",
+    "href": "2026/weeks/week11/pageVIs.html#lecture-slides",
+    "title": "🗓️ Week 11 - Vegetation Indices",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a Vegetation Index??"
+  },
+  {
+    "objectID": "2026/weeks/week11/pageVIs.html#practical-exercises",
+    "href": "2026/weeks/week11/pageVIs.html#practical-exercises",
+    "title": "🗓️ Week 11 - Vegetation Indices",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nCompute a vegetation index from Sentinel-2 imagery\n\n\n\n\n\n\nImportant\n\n\n\n\n\nReplicate and publish this notebook. It is part of Informe 2."
+  },
+  {
+    "objectID": "2026/weeks/week11/pageVIs.html#homework",
+    "href": "2026/weeks/week11/pageVIs.html#homework",
+    "title": "🗓️ Week 11 - Vegetation Indices",
+    "section": "📚 Homework",
+    "text": "📚 Homework\nStudy this article. Take note of the formulas for the vegetation indices described in Section 2.2. You will need them for Examen 2."
+  },
+  {
+    "objectID": "2026/weeks/week11/pageVIs.html#grades",
+    "href": "2026/weeks/week11/pageVIs.html#grades",
+    "title": "🗓️ Week 11 - Vegetation Indices",
+    "section": "Grades",
+    "text": "Grades\n\nNotas Examen 1\nNotas Informe 1"
+  },
+  {
+    "objectID": "2026/weeks/week11/gnss_page.html",
+    "href": "2026/weeks/week11/gnss_page.html",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "",
+    "text": "In this week, we will learn about GNSS."
+  },
+  {
+    "objectID": "2026/weeks/week11/gnss_page.html#lecture-slides",
+    "href": "2026/weeks/week11/gnss_page.html#lecture-slides",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is GNSS??\nHow to use handheld GNSS devices?\nHow to download GNSS data to a computer?\nWhat is the positional accuracy of GNSS data?"
+  },
+  {
+    "objectID": "2026/weeks/week11/gnss_page.html#practical-exercises",
+    "href": "2026/weeks/week11/gnss_page.html#practical-exercises",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nWorking with GNSS data\n\n\n\n\n\n\nImportant\n\n\n\n\n\nImporting GNSS data to QGIS3.x"
+  },
+  {
+    "objectID": "2026/weeks/week11/gnss_page.html#homework",
+    "href": "2026/weeks/week11/gnss_page.html#homework",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "Homework",
+    "text": "Homework\nStudents prepare 8 targets for the campus practice 🎥"
+  },
+  {
+    "objectID": "2026/weeks/week11/gnss_page.html#recommended-reading",
+    "href": "2026/weeks/week11/gnss_page.html#recommended-reading",
+    "title": "🗓️ Week 11 - Global Navegation Satellite Systems (GNSS)",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy How GNSS works."
+  },
+  {
     "objectID": "2026/weeks/week10/pageRS.html",
     "href": "2026/weeks/week10/pageRS.html",
     "title": "🗓️ Week 10 - Remote Sensing",
@@ -657,7 +727,7 @@
     "href": "2026/syllabus.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "ImportantDESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
+    "text": "DESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
     "crumbs": [
       "📓 Syllabus"
     ]
@@ -694,7 +764,7 @@
     "href": "2026/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "Important📢 Informe No. 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Informe No. 1\n\n\n\n\n\nSubmit the three color-printed maps as well as their descriptions on 15th October.\n\n\n\n\n\n\n\n\n\nImportant📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\nImportant📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "text": "📢 Informe No. 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📢 Informe No. 1\n\n\n\n\n\nSubmit the three color-printed maps as well as their descriptions on 15th October.\n\n\n\n\n\n\n\n\n\n📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\n📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
     "crumbs": [
       "🏠 Home"
     ]
@@ -1448,6 +1518,96 @@
     "crumbs": [
       "🗓️ Weeks",
       "Week 10"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week11/Npage.html",
+    "href": "2026/weeks/week11/Npage.html",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "",
+    "text": "In this week, we will learn about digital elevation models (DEMs)."
+  },
+  {
+    "objectID": "2026/weeks/week11/Npage.html#lecture-slides",
+    "href": "2026/weeks/week11/Npage.html#lecture-slides",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a DEM?\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?"
+  },
+  {
+    "objectID": "2026/weeks/week11/Npage.html#practical-exercises",
+    "href": "2026/weeks/week11/Npage.html#practical-exercises",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nDEM notebook"
+  },
+  {
+    "objectID": "2026/weeks/week11/Npage.html#homework",
+    "href": "2026/weeks/week11/Npage.html#homework",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the DEM notebook 🎥"
+  },
+  {
+    "objectID": "2026/weeks/week11/Npage.html#recommended-reading",
+    "href": "2026/weeks/week11/Npage.html#recommended-reading",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy how slope works."
+  },
+  {
+    "objectID": "2026/weeks/week11/page.html",
+    "href": "2026/weeks/week11/page.html",
+    "title": "🗓️ Week 11 - Geomorphometry",
+    "section": "",
+    "text": "In this week, we will learn how to obtain geomorphometric variables from digital elevation models (DEMs).",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week11/page.html#lecture-slides",
+    "href": "2026/weeks/week11/page.html#lecture-slides",
+    "title": "🗓️ Week 11 - Geomorphometry",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is geomorphometry\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week11/page.html#practical-exercises",
+    "href": "2026/weeks/week11/page.html#practical-exercises",
+    "title": "🗓️ Week 11 - Geomorphometry",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nGeomorphometric terrain attributes",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week11/page.html#homework",
+    "href": "2026/weeks/week11/page.html#homework",
+    "title": "🗓️ Week 11 - Geomorphometry",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the Geomorphometric notebook. This notebook counts for the Informe No.2. 🎥",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week11/page.html#recommended-reading",
+    "href": "2026/weeks/week11/page.html#recommended-reading",
+    "title": "🗓️ Week 11 - Geomorphometry",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\n\nStudy how slope works.\nStudy how aspect works.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 11"
     ]
   }
 ]
