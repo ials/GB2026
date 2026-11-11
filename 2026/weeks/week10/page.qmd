@@ -7,28 +7,37 @@ In this week, we will learn basic concepts about GNSS.
 
 ## 👨‍🏫 Lecture Slides 
 
-
-
 - [Introduction to GNSS](https://drive.google.com/file/d/1YhjIhXLDxuK3lVJhAKuZQhdJ1fg3WVFK/view?usp=sharing)?
-
-
 
 ## **Practical exercises**:
 
 
 #### Working with GNSS data 
 ::: {.callout-important collapse="true"}
+
+Do the practical exercises explained in this guide:
 [GNSS data in QGIS](https://drive.google.com/file/d/1niO0pQDIq2pbJpNPw0dlaI7nEw2Y9c1u/view?usp=sharing)
+
 :::
 
-
 ## Homework
-Students digitize 8 polygons for the GNNS practice (using the Bogota's 2025 orthoimage). Polygons should be saved as geojson files.
+
+Working in pairs, students will complete the following tasks:
+
+- Delineate five 1-hectare polygons across campus using the 2025 Bogotá orthoimage.
+- Collect field waypoints for the same polygons using a GNSS receiver.
+- Replicate the QGIS practical exercise using their own campus data.
+- Compare the digitized area against the field-measured area.
 🎥 
+
+Final Assessment:
+Students will document their findings in a technical report, which will serve as the Examen Final. This report is due on *November 26*.
 
 ## 📚 Recommended Reading 
 
 Study [How GNSS works](https://www.geospatialworld.net/blogs/how-gnss-works/).
+
+Read [GPSMAP 64X user manual](https://www8.garmin.com/manuals/webhelp/gpsmap64/ES-XM/GPSMAP_64_OM_ES-XM.pdf)
 
 
 
