@@ -26,7 +26,7 @@ We'll learn:
 
 
 ## Homework
-Replicate and publish the *Geomorphometric* notebook.
+Replicate and publish the *Geomorphometric* notebook. This notebook counts for the *Informe No.2*.
 🎥 
 
 ## 📚 Recommended Reading 
