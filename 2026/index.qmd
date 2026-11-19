@@ -5,6 +5,15 @@ format: html
 ---
 
 ::: {.callout-important collapse=true}
+## 📢 Plazo de entrega de evaluaciones finales: 3 de Diciembre
+
+- El [Informe No. 2](https://drive.google.com/drive/folders/1H3-7y1M46ErRWC_Up_57UHs6U4N_yOoO?usp=sharing) consta de dos cuadernos (mapa de produccion agrícola y geomorfometría).
+
+- El [Examen No. 2](https://drive.google.com/drive/folders/13M3o1MhdVhfS6Zl31Dxf4j5Z1I45sDc9?usp=sharing) es un reporte técnico del levantamiento GNSS (que debe cumplir los criterios indicados en clase).
+
+:::
+
+::: {.callout-important collapse=true}
 ## 📢 Informe No. 1
 
 ![](GB_INFORME1.png)
