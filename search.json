@@ -1,5 +1,77 @@
 [
   {
+    "objectID": "2026/weeks/week12/page.html",
+    "href": "2026/weeks/week12/page.html",
+    "title": "🗓️ Week 12 - Photogrammetry",
+    "section": "",
+    "text": "In this week, we will learn what is structure from motion and multiview stereo.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week12/page.html#lecture-slides",
+    "href": "2026/weeks/week12/page.html#lecture-slides",
+    "title": "🗓️ Week 12 - Photogrammetry",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\n\nWhat is structure from motion?",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week12/page.html#practical-exercises",
+    "href": "2026/weeks/week12/page.html#practical-exercises",
+    "title": "🗓️ Week 12 - Photogrammetry",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nMap Anything\n\n\nWebODM",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week12/page.html#recommended-reading",
+    "href": "2026/weeks/week12/page.html#recommended-reading",
+    "title": "🗓️ Week 12 - Photogrammetry",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy Photogrammetry and structure from motion.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week12/RS.html",
+    "href": "2026/weeks/week12/RS.html",
+    "title": "🗓️ Week 12 - Remote sensing basics",
+    "section": "",
+    "text": "In this week, we will learn what is remote sensing and how can it help agriculture."
+  },
+  {
+    "objectID": "2026/weeks/week12/RS.html#lecture-slides",
+    "href": "2026/weeks/week12/RS.html#lecture-slides",
+    "title": "🗓️ Week 12 - Remote sensing basics",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat are spectral indices??"
+  },
+  {
+    "objectID": "2026/weeks/week12/RS.html#practical-exercises",
+    "href": "2026/weeks/week12/RS.html#practical-exercises",
+    "title": "🗓️ Week 12 - Remote sensing basics",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nUnderstanding spectral signatures and profiles\n\n\n\n\n\n\nImportant\n\n\n\n\n\nSpectral characteristics viewer"
+  },
+  {
+    "objectID": "2026/weeks/week12/RS.html#recommended-reading",
+    "href": "2026/weeks/week12/RS.html#recommended-reading",
+    "title": "🗓️ Week 12 - Remote sensing basics",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy Agricultural remote sensing basics."
+  },
+  {
     "objectID": "2026/weeks/week11/pageVIs.html",
     "href": "2026/weeks/week11/pageVIs.html",
     "title": "🗓️ Week 11 - Vegetation Indices",
@@ -727,7 +799,7 @@
     "href": "2026/syllabus.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "ImportantDESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
+    "text": "DESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
     "crumbs": [
       "📓 Syllabus"
     ]
@@ -764,7 +836,7 @@
     "href": "2026/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "Important📢 Informe No. 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Informe No. 1\n\n\n\n\n\nSubmit the three color-printed maps as well as their descriptions on 15th October.\n\n\n\n\n\n\n\n\n\nImportant📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\nImportant📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "text": "📢 Plazo de entrega de evaluaciones finales: 3 de Diciembre\n\n\n\n\n\n\nEl Informe No. 2 consta de dos cuadernos (mapa de produccion agrícola y geomorfometría).\nEl Examen No. 2 es un reporte técnico del levantamiento GNSS (que debe cumplir los criterios indicados en clase).\n\n\n\n\n\n\n\n\n\n\n📢 Informe No. 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📢 Informe No. 1\n\n\n\n\n\nSubmit the three color-printed maps as well as their descriptions on 15th October.\n\n\n\n\n\n\n\n\n\n📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\n📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
     "crumbs": [
       "🏠 Home"
     ]
@@ -1609,5 +1681,68 @@
       "🗓️ Weeks",
       "Week 11"
     ]
+  },
+  {
+    "objectID": "2026/weeks/week12/Npage.html",
+    "href": "2026/weeks/week12/Npage.html",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "",
+    "text": "In this week, we will learn about digital elevation models (DEMs)."
+  },
+  {
+    "objectID": "2026/weeks/week12/Npage.html#lecture-slides",
+    "href": "2026/weeks/week12/Npage.html#lecture-slides",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a DEM?\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?"
+  },
+  {
+    "objectID": "2026/weeks/week12/Npage.html#practical-exercises",
+    "href": "2026/weeks/week12/Npage.html#practical-exercises",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nDEM notebook"
+  },
+  {
+    "objectID": "2026/weeks/week12/Npage.html#homework",
+    "href": "2026/weeks/week12/Npage.html#homework",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the DEM notebook 🎥"
+  },
+  {
+    "objectID": "2026/weeks/week12/Npage.html#recommended-reading",
+    "href": "2026/weeks/week12/Npage.html#recommended-reading",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy how slope works."
+  },
+  {
+    "objectID": "2026/weeks/week12/SfM.html",
+    "href": "2026/weeks/week12/SfM.html",
+    "title": "🗓️ Week 13 - Photogrammetry",
+    "section": "",
+    "text": "In this week, we will learn what is structure from motion."
+  },
+  {
+    "objectID": "2026/weeks/week12/SfM.html#lecture-slides",
+    "href": "2026/weeks/week12/SfM.html#lecture-slides",
+    "title": "🗓️ Week 13 - Photogrammetry",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\n\nWhat is structure from motion?"
+  },
+  {
+    "objectID": "2026/weeks/week12/SfM.html#practical-exercises",
+    "href": "2026/weeks/week12/SfM.html#practical-exercises",
+    "title": "🗓️ Week 13 - Photogrammetry",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nAttend the salida de campus and collect GNSS data"
+  },
+  {
+    "objectID": "2026/weeks/week12/SfM.html#recommended-reading",
+    "href": "2026/weeks/week12/SfM.html#recommended-reading",
+    "title": "🗓️ Week 13 - Photogrammetry",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy Photogrammetry and structure from motion."
   }
 ]
