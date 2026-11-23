@@ -1,5 +1,231 @@
 [
   {
+    "objectID": "2026/weeks/week13/slides.html#definition",
+    "href": "2026/weeks/week13/slides.html#definition",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Definition",
+    "text": "Definition\nSpatial interpolation is the estimation of values of spatially continuous variables (fields) for spatial locations where they have not been observed, based on known (observed) values."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#geostatistics",
+    "href": "2026/weeks/week13/slides.html#geostatistics",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Geostatistics",
+    "text": "Geostatistics\nDiscipline concerned with modelling, estimation, and simulation of spatially continuous phenomena.\nThe typical problem is a missing value problem: from a limited number of observations of phenomenon Z(s) at samples \\(s_i\\), we are interested in estimating values for unobserved locations."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#general-equation",
+    "href": "2026/weeks/week13/slides.html#general-equation",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "General equation",
+    "text": "General equation\n\\(Z_t\\) is the estimated value at point t, \\(Z_i\\) is the value observed in the i-th point and \\(N\\) is the number of neighboring points that are used."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#interpolation-types",
+    "href": "2026/weeks/week13/slides.html#interpolation-types",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Interpolation types",
+    "text": "Interpolation types\nA global interpolation uses all available known points to estimate the unknown values. It produces smoother surfaces.\nLocal interpolation uses a sample of known points to estimate the unknown values. It captures the short-range variation."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#deterministic-vs-stochastic",
+    "href": "2026/weeks/week13/slides.html#deterministic-vs-stochastic",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Deterministic vs stochastic",
+    "text": "Deterministic vs stochastic\nDeterministic method are based on exactly predetermined functions that supposedly captures spatial similarity patterns.\nStochastic interpolation methods use random functions that quantifies the spatial autocorrelation among observations and account for the spatial configuration."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#deterministic-vs-stochastic-1",
+    "href": "2026/weeks/week13/slides.html#deterministic-vs-stochastic-1",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Deterministic vs stochastic …",
+    "text": "Deterministic vs stochastic …\nDeterministic interpolation methods provide no assessment of errors with predicted values, while stochastic interpolation method offer assessment of predictions errors with estimated variances.\nDeterministic interpolation methods include inverse distance weighted (IDW), modified Shepard, Spheremap and nearest neighbor.\nStochastic interpolation methods: ordinary kriging and universal kriging."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#nearest-neighbor-nn",
+    "href": "2026/weeks/week13/slides.html#nearest-neighbor-nn",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Nearest Neighbor (NN)",
+    "text": "Nearest Neighbor (NN)\nThe nearest neighbor method assigns the value from the nearest observation to a certain grid node. It is mostly applied in meteorology and can give good results when using a dense station networks."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#inverse-distance-weighting-idw",
+    "href": "2026/weeks/week13/slides.html#inverse-distance-weighting-idw",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Inverse distance weighting (IDW)",
+    "text": "Inverse distance weighting (IDW)"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#idw",
+    "href": "2026/weeks/week13/slides.html#idw",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW …",
+    "text": "IDW …"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#idw-1",
+    "href": "2026/weeks/week13/slides.html#idw-1",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW …",
+    "text": "IDW …\nThe choice of β values affects the estimation quality. Higher values emphasize the influence of nearest points nearest to the grid node. Smaller values give more influence to distant points."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#idw-.",
+    "href": "2026/weeks/week13/slides.html#idw-.",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW ….",
+    "text": "IDW ….\nThe choice of the decorrelation distance affect the smoothness of the interpolated surface. A higher value of \\(d_0\\) results in a more smoothed interpolated surface."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#idw-illustration",
+    "href": "2026/weeks/week13/slides.html#idw-illustration",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "IDW illustration",
+    "text": "IDW illustration"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#root-mean-square-error-rmse",
+    "href": "2026/weeks/week13/slides.html#root-mean-square-error-rmse",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "root-mean-square error (RMSE)",
+    "text": "root-mean-square error (RMSE)\nA common interpolation assessment metric is the RMSE:"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#kriging",
+    "href": "2026/weeks/week13/slides.html#kriging",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Kriging",
+    "text": "Kriging"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#estimation-of-the-mean-function",
+    "href": "2026/weeks/week13/slides.html#estimation-of-the-mean-function",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Estimation of the mean function",
+    "text": "Estimation of the mean function"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#estimation-of-the-spatial-correlation",
+    "href": "2026/weeks/week13/slides.html#estimation-of-the-spatial-correlation",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Estimation of the spatial correlation",
+    "text": "Estimation of the spatial correlation"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#modelling-the-semivariogram",
+    "href": "2026/weeks/week13/slides.html#modelling-the-semivariogram",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Modelling the semivariogram",
+    "text": "Modelling the semivariogram"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#spherical-model",
+    "href": "2026/weeks/week13/slides.html#spherical-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Spherical model",
+    "text": "Spherical model"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#exponential-model",
+    "href": "2026/weeks/week13/slides.html#exponential-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Exponential model",
+    "text": "Exponential model"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#gaussian-model",
+    "href": "2026/weeks/week13/slides.html#gaussian-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Gaussian model",
+    "text": "Gaussian model"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#power-model",
+    "href": "2026/weeks/week13/slides.html#power-model",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Power model",
+    "text": "Power model"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#ordinary-kriging-ok",
+    "href": "2026/weeks/week13/slides.html#ordinary-kriging-ok",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Ordinary kriging (OK)",
+    "text": "Ordinary kriging (OK)"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#universal-kriging-uk",
+    "href": "2026/weeks/week13/slides.html#universal-kriging-uk",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Universal kriging (UK)",
+    "text": "Universal kriging (UK)\n\nUK, also known as Regression Kriging, is a more general model.\nIn OK, the trend is a constant value.\nIn UK, the trend is a linear function of one or more covariates."
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#spatial-interpolation-in-qgis",
+    "href": "2026/weeks/week13/slides.html#spatial-interpolation-in-qgis",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Spatial interpolation in QGIS",
+    "text": "Spatial interpolation in QGIS\n\nInterpolation Basics\nInterpolation tutorial\nGB Interpolación de datos de precipitación"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#kriging-interpolation-in-r",
+    "href": "2026/weeks/week13/slides.html#kriging-interpolation-in-r",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "Kriging interpolation in R",
+    "text": "Kriging interpolation in R\nThe general procedure is outlined below:\n\nData preparation\nSample variogram\nVariogram modelling\nModel evaluation using RMSE\nSpatial prediction using gstat"
+  },
+  {
+    "objectID": "2026/weeks/week13/slides.html#r-practical",
+    "href": "2026/weeks/week13/slides.html#r-practical",
+    "title": "🗓️ Week 13 Spatial interpolation",
+    "section": "R Practical",
+    "text": "R Practical\nR notebook for Soil Organic Carbon Interpolation."
+  },
+  {
+    "objectID": "2026/weeks/week13/page.html",
+    "href": "2026/weeks/week13/page.html",
+    "title": "🗓️ Week 13 - Remote sensing basics",
+    "section": "",
+    "text": "In this week, we will learn what is remote sensing and how can it help agriculture.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week13/page.html#lecture-slides",
+    "href": "2026/weeks/week13/page.html#lecture-slides",
+    "title": "🗓️ Week 13 - Remote sensing basics",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat are spectral indices??",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week13/page.html#practical-exercises",
+    "href": "2026/weeks/week13/page.html#practical-exercises",
+    "title": "🗓️ Week 13 - Remote sensing basics",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nUnderstanding spectral signatures and profiles\n\n\n\n\n\n\nImportant\n\n\n\n\n\nSpectral characteristics viewer",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "2026/weeks/week13/page.html#recommended-reading",
+    "href": "2026/weeks/week13/page.html#recommended-reading",
+    "title": "🗓️ Week 13 - Remote sensing basics",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy Agricultural remote sensing basics.",
+    "crumbs": [
+      "🗓️ Weeks",
+      "Week 13"
+    ]
+  },
+  {
     "objectID": "2026/weeks/week12/page.html",
     "href": "2026/weeks/week12/page.html",
     "title": "🗓️ Week 12 - Photogrammetry",
@@ -799,7 +1025,7 @@
     "href": "2026/syllabus.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "ImportantDESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
+    "text": "DESCRIPCIÓN DE LA ASIGNATURA:\n\n\n\n\n\n\n\n\nEntender y aplicar conceptos, métodos y técnicas geoespaciales.\nDesarrollar destrezas prácticas para realizar procesos digitales útiles en las ciencias agronómicas.\nBrindar oportunidades para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa.\n\n\n\n\n\nCapacidad para usar las herramientas tecnológicas, de la información y de la comunicación\nCapacidad para organización y planificación\nCapacidad de comunicación\n\n\n\n\n\nCapacidad de abstracción, análisis y síntesis.\nCapacidad de integrar y aplicar los conocimientos en la práctica.\nCapacidad de lectura en inglés.\nCapacidad para organizar y planificar el tiempo.\nCapacidad para desarrollar pensamiento crítico, razonamiento espacial y calidad argumentativa\n\n\n\n\n\nLectura antes de la clase a cargo del estudiante\nPresentación de conceptos, métodos y técnicas a cargo del profesor\nRealización de ejercicios prácticos y elaboración de reportes técnicos a cargo del estudiante\n\n\n\n\n\nQGIS\nGeoLibre\nR & RStudio\n\n\n\n\nLos estudiantes pueden usar herramientas de Inteligencia Artifical como un apoyo, y no como un sustituto, del pensamiento, el esfuerzo y el estilo personal. En este curso se permite el uso de IA generativa hasta un máximo del 50 % de cada trabajo presentado.\n\n\n\nLos estudiantes deben asistir a todas las clases. Las ausencias ocasionales por enfermedad deben justificarse. La participación en otras actividades académicas que se crucen con el horario de clase debe solicitarse con antelación. La asignatura se pierde con el 10% de las fallas.",
     "crumbs": [
       "📓 Syllabus"
     ]
@@ -836,7 +1062,7 @@
     "href": "2026/index.html",
     "title": "2015896 - GEOMATICA BASICA",
     "section": "",
-    "text": "Important📢 Plazo de entrega de evaluaciones finales: 3 de Diciembre\n\n\n\n\n\n\nEl Informe No. 2 consta de dos cuadernos (mapa de produccion agrícola y geomorfometría).\nEl Examen No. 2 es un reporte técnico del levantamiento GNSS (que debe cumplir los criterios indicados en clase).\n\n\n\n\n\n\n\n\n\n\nImportant📢 Informe No. 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant📢 Informe No. 1\n\n\n\n\n\nSubmit the three color-printed maps as well as their descriptions on 15th October.\n\n\n\n\n\n\n\n\n\nImportant📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\nImportant📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
+    "text": "📢 Plazo de entrega de evaluaciones finales: 3 de Diciembre\n\n\n\n\n\n\nEl Informe No. 2 consta de dos cuadernos (mapa de produccion agrícola y geomorfometría).\nEl Examen No. 2 es un reporte técnico del levantamiento GNSS (que debe cumplir los criterios indicados en clase).\n\n\n\n\n\n\n\n\n\n\n📢 Informe No. 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📢 Informe No. 1\n\n\n\n\n\nSubmit the three color-printed maps as well as their descriptions on 15th October.\n\n\n\n\n\n\n\n\n\n📢 Writing Assignment\n\n\n\n\n\n(17/09/2026)\nHandwrite the following topics for your Departamento:\n\nBiophysical environment (i.e., relief, hydrography, and climate);\nSocial and economic aspects.\n\nPlease bring your document to the classroom next week (Wednesday 23th September).\n\n\n\n\n\n\n\n\n\n📢 Syllabus\n\n\n\n\n\n(27/08/2026)\n\n🗓️ Know the syllabus here!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\nIVAN LIZARAZO  ASSOCIATE PROFESSOR  UNAL 📧 ializarazos@unal.edu.co ( at )\nOffice Hours:\n\nWhen: Thursdays 11:00 am\nWhere: Oficina 333\nHow to book: via e-mail\n\n\n\nIALS\n\n\n\n\n\n📍 Dates - Location\nWednesdays 9am-11am at SALON 103",
     "crumbs": [
       "🏠 Home"
     ]
@@ -1744,5 +1970,75 @@
     "title": "🗓️ Week 13 - Photogrammetry",
     "section": "📚 Recommended Reading",
     "text": "📚 Recommended Reading\nStudy Photogrammetry and structure from motion."
+  },
+  {
+    "objectID": "2026/weeks/week13/Npage.html",
+    "href": "2026/weeks/week13/Npage.html",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "",
+    "text": "In this week, we will learn about digital elevation models (DEMs)."
+  },
+  {
+    "objectID": "2026/weeks/week13/Npage.html#lecture-slides",
+    "href": "2026/weeks/week13/Npage.html#lecture-slides",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nWe’ll learn:\n\nWhat is a DEM?\nWhat variables can be derived from a DEM?\nHow to calculate slope from a DEM?"
+  },
+  {
+    "objectID": "2026/weeks/week13/Npage.html#practical-exercises",
+    "href": "2026/weeks/week13/Npage.html#practical-exercises",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Practical exercises:",
+    "text": "Practical exercises:\n\nDEM processing and analysis\n\n\n\n\n\n\nImportant\n\n\n\n\n\nDEM notebook"
+  },
+  {
+    "objectID": "2026/weeks/week13/Npage.html#homework",
+    "href": "2026/weeks/week13/Npage.html#homework",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "Homework",
+    "text": "Homework\nReplicate and publish the DEM notebook 🎥"
+  },
+  {
+    "objectID": "2026/weeks/week13/Npage.html#recommended-reading",
+    "href": "2026/weeks/week13/Npage.html#recommended-reading",
+    "title": "🗓️ Week 10 - Digital elevation data",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\nStudy how slope works."
+  },
+  {
+    "objectID": "2026/weeks/week13/pageInterpolation.html",
+    "href": "2026/weeks/week13/pageInterpolation.html",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "",
+    "text": "In this week, we will learn about spatial interpolation, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field."
+  },
+  {
+    "objectID": "2026/weeks/week13/pageInterpolation.html#slides",
+    "href": "2026/weeks/week13/pageInterpolation.html#slides",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "👨‍🏫 Slides",
+    "text": "👨‍🏫 Slides\nYou can find the slides here"
+  },
+  {
+    "objectID": "2026/weeks/week13/pageInterpolation.html#r-practical",
+    "href": "2026/weeks/week13/pageInterpolation.html#r-practical",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "R Practical",
+    "text": "R Practical\nDetailed instructions are provided on July 8-9 in the classroom."
+  },
+  {
+    "objectID": "2026/weeks/week13/pageInterpolation.html#informe-no.2-deadline",
+    "href": "2026/weeks/week13/pageInterpolation.html#informe-no.2-deadline",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "✍️ Informe No.2 deadline",
+    "text": "✍️ Informe No.2 deadline\n🚧 Make sure you complete the notebooks before 23th July at 11:59 pm 🚧"
+  },
+  {
+    "objectID": "2026/weeks/week13/pageInterpolation.html#useful-references",
+    "href": "2026/weeks/week13/pageInterpolation.html#useful-references",
+    "title": "🗓️ Week 13 - Spatial Interpolation",
+    "section": "Useful references:",
+    "text": "Useful references:\nKriging Interpolation\nSpatial interpolation\nCarto tutorial\n🎥"
   }
 ]
