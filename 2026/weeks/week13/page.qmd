@@ -1,30 +1,29 @@
 ---
-title: "🗓️ Week 13 - Spatial Interpolation"
+title: "🗓️ Week 13 - Remote sensing basics"
 ---
 
-In this week, we will learn about *spatial interpolation*, a geostatistical technique for estimating values of continuous surfaces from point values sampled in the field.
+In this week, we will learn what is remote sensing and how can it help agriculture. 
 
-## 👨‍🏫 Slides
 
-You can find the slides [here](slides.qmd)
+## 👨‍🏫 Lecture Slides 
 
-## R Practical
+We'll learn:
 
-Detailed instructions are provided on  July 8-9 in the classroom. 
+- [What are spectral indices?](https://drive.google.com/file/d/13M8D7NzfEUinfzSjDBI2gk61zCBW3Wmc/view?usp=sharing)?
 
-## ✍️ Informe No.2 deadline
 
-🚧 Make sure you complete the *notebooks* before 23th July at 11:59 pm 🚧
+## **Practical exercises**:
 
-## Useful references:
 
-[Kriging Interpolation](https://www.publichealth.columbia.edu/research/population-health-methods/kriging-interpolation)
+#### Understanding spectral signatures and profiles
+::: {.callout-important collapse="true"}
+[Spectral characteristics viewer](https://landsat.usgs.gov/spectral-characteristics-viewer)
+:::
 
-[Spatial interpolation](https://rpubs.com/ials2un/Spatial_Interpolation)
 
-[Carto tutorial](https://carto.com/blog/spatial-interpolation-techniques-tutorial)
+## 📚 Recommended Reading 
 
-🎥 
+Study [Agricultural remote sensing basics](https://drive.google.com/file/d/1MqzBJ0ZFYVAT-f3e8VzBmF1OsEszRlMl/view?usp=sharing).
 
 
 
